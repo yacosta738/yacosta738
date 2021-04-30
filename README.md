@@ -40,5 +40,5 @@ Hi, I'm Yuniel Acosta, a passionate web developer from Cuba.
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=yacosta738&repo=github-readme-stats&theme=material-palenight" />
 </a>    
 <a href="https://github.com/anuraghazra/anuraghazra.github.io">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=yacosta738&repo=anuraghazra.github.io&theme=material-palenight" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=yacosta738&repo=yacosta738.github.io&theme=material-palenight" />
 </a>
