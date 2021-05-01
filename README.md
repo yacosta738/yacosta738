@@ -1,16 +1,21 @@
-### Hi there, I'm [Yuniel Acosta!](https://blastkode.com) 👋
+# Hi there, I'm [Yuniel Acosta!](https://blastkode.com/yuniel-acosta) 👋
 
-<a href="https://codesandbox.io/u/anuraghazra">
-  <img align="left" alt="Yuniel Acosta | CodeSandbox" width="20px" src="https://raw.githubusercontent.com/yacosta738/yacosta738/master/assets/codesandbox.svg" />
+<a href="https://www.linkedin.com/in/yacosta738">
+  <img align="left" alt="Yuniel Acosta | LinkedIn" width="20px" src="https://raw.githubusercontent.com/yacosta738/yacosta738/master/assets/linkedin.svg" />
 </a>
-<a href="https://twitter.com/anuraghazru">
+<a href="https://twitter.com/yacosta738">
   <img align="left" alt="Yuniel Acosta | Twitter" width="21px" src="https://raw.githubusercontent.com/yacosta738/yacosta738/master/assets/twitter.svg" />
 </a>
-
+<a href="https://www.instagram.com/yacosta738">
+  <img align="left" alt="Yuniel Acosta | Instagram" width="20px" src="https://raw.githubusercontent.com/yacosta738/yacosta738/master/assets/instagram.svg" />
+</a>
+<a href="https://www.blastkode.com">
+  <img align="left" alt="Yuniel Acosta | Blastkode" width="20px" src="https://raw.githubusercontent.com/yacosta738/yacosta738/master/assets/blastkode.svg" />
+</a>
 <br />
 <br />
 
-Hi, I'm Yuniel Acosta, a passionate web developer from Cuba.
+I'm a passionate web developer from Cuba.
 
 - 🔭 I’m currently working in [Desoft](https://www.desoft.com)
 - 🌱 I’m currently learning Typescript
@@ -30,8 +35,9 @@ Hi, I'm Yuniel Acosta, a passionate web developer from Cuba.
 
 
 <a href="https://github.com/yacosta738/github-readme-stats">
-  <img align="center" src="https://github-readme-stats-yacosta738.vercel.app/api?username=yacosta738&show_icons=true&include_all_commits=true&theme=material-palenight" alt="Yuniel's github stats" />
+  <img align="center" src="https://github-readme-stats-yacosta738.vercel.app/api?username=yacosta738&show_icons=true&include_all_commits=true&theme=vue-dark" alt="Yuniel's github stats" />
 </a>
+
 <a href="https://github.com/yacosta738/github-readme-stats">
-  <img align="center" src="https://github-readme-stats-yacosta738.vercel.app/api/top-langs/?username=yacosta738&layout=compact&theme=material-palenight" />
+  <img align="center" src="https://github-readme-stats-yacosta738.vercel.app/api/top-langs/?username=yacosta738&layout=compact&theme=vue-dark" />
 </a>
