@@ -9,7 +9,7 @@
 
 - 👨‍🔧 I'm currently working on [Desoft](https://www.desoft.cu)
 
-I'm a passionate web developer from Cuba.
+- I'm a passionate web developer from Cuba.
 
 - 📝 I regularly write articles on [https://www.blastkode.com/blog](https://www.blastkode.com/blog)
 
@@ -35,5 +35,5 @@ I'm a passionate web developer from Cuba.
 <p><img align="left" src="https://github-readme-stats-yacosta738.vercel.app/api/top-langs?username=yacosta738&show_icons=true&locale=en&theme=vue-dark" alt="Yuniel's github stats" /></p>
 <p>&nbsp;<img align="center" src="https://github-readme-stats-yacosta738.vercel.app/api?username=yacosta738&show_icons=true&locale=en&theme=vue-dark" alt="yacosta738" /></p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=yacosta738&" alt="yacosta738" /></p>
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=yacosta738&theme=vue-dark" alt="yacosta738" /></p>
 
