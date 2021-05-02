@@ -15,6 +15,10 @@
 
 ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
+- [Countdown to new year](https://www.blastkode.com/content/blog/2020-12-27-countdown-to-new-year-astronomy/)
+- [Add an image picker in flutter](https://www.blastkode.com/content/blog/2020-12-18-add-image-selector-flutter/)
+- [Configure global proxy on linux](https://www.blastkode.com/configure-proxy-global-on-linux)
+- [Introduction to Gridsome](https://www.blastkode.com/introduction-to-gridsome)
 <!-- BLOG-POST-LIST:END -->
 
 <h3 align="left">Connect with me:</h3>
