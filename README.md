@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Yuniel Acosta</h1>
-<h3 align="center">A passionate web developer from Cuba</h3>
+<h3 align="center">I’m a software engineer, technology and science enthusiast, specialized in building mobile and web applications.</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=yacosta738&label=Profile%20views&color=0e75b6&style=flat" alt="yacosta738" /> </p>
 
@@ -7,13 +7,11 @@
 
 <p align="left"> <a href="https://twitter.com/yacosta738" target="blank"><img src="https://img.shields.io/twitter/follow/yacosta738?logo=twitter&style=for-the-badge" alt="yacosta738" /></a> </p>
 
-- 👨‍🔧 I'm currently working on [Desoft](https://www.desoft.cu)
-
-- I'm a passionate web developer from Cuba.
+- 👨‍🔧 I work in [Desoft](https://www.desoft.cu)
 
 - 📝 I regularly write articles on [https://www.blastkode.com/blog](https://www.blastkode.com/blog)
 
-- 🥼🧪 Know about my experiences [https://blastkode.com/yuniel-acosta](https://blastkode.com/yuniel-acosta)
+- 🥼🧪 Know about my work experiences [https://blastkode.com/yuniel-acosta](https://blastkode.com/yuniel-acosta)
 
 ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
