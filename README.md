@@ -15,9 +15,9 @@
 
 ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
-- [Customizing Github Profile Page](https://www.blastkode.com/content/blog/2021-05-11-customizing-github-profile-page/)
-- [Countdown to new year](https://www.blastkode.com/content/blog/2020-12-27-countdown-to-new-year-astronomy/)
-- [Add an image picker in flutter](https://www.blastkode.com/content/blog/2020-12-18-add-image-selector-flutter/)
+- [Customizing Github Profile Page](https://www.blastkode.com/customizing-github-profile-page)
+- [Countdown to new year](https://www.blastkode.com/countdown-to-new-year-astronomy)
+- [Add an image picker in flutter](https://www.blastkode.com/add-an-image-picker-in-flutter)
 - [Configure global proxy on linux](https://www.blastkode.com/configure-proxy-global-on-linux)
 <!-- BLOG-POST-LIST:END -->
 
