@@ -15,10 +15,10 @@
 
 ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
+- [Top 10 VS Code extension for 2021](https://www.blastkode.com/top-ten-visual-studio-code)
 - [Customizing Github Profile Page](https://www.blastkode.com/customizing-github-profile-page)
 - [Countdown to new year](https://www.blastkode.com/countdown-to-new-year-astronomy)
 - [Add an image picker in flutter](https://www.blastkode.com/add-an-image-picker-in-flutter)
-- [Configure global proxy on linux](https://www.blastkode.com/configure-proxy-global-on-linux)
 <!-- BLOG-POST-LIST:END -->
 
 <h3 align="left">Connect with me:</h3>
