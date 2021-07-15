@@ -16,7 +16,7 @@
 ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
 - [Vue 3 with Typescript and Decorators](https://www.blastkode.com/en/vue3-with-ypescript-and-decorators)
-- [Vue 3 with Typescript and Decorators](https://www.blastkode.com/es/vue3-with-ypescript-and-decorators)
+- [Vue 3 con Typescript y Decoradores](https://www.blastkode.com/es/vue3-with-ypescript-and-decorators)
 - [Las 10 principales extensiones de VS Code en el 2021](https://www.blastkode.com/es/top-ten-visual-studio-code)
 - [Top 10 VS Code extension for 2021](https://www.blastkode.com/en/top-ten-visual-studio-code)
 <!-- BLOG-POST-LIST:END -->
