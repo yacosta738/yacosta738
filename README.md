@@ -7,7 +7,7 @@
 
 <p align="left"> <a href="https://twitter.com/yacosta738" target="blank"><img src="https://img.shields.io/twitter/follow/yacosta738?logo=twitter&style=for-the-badge" alt="yacosta738" /></a> </p>
 
-- 👨‍🔧 I work in [Desoft](https://www.desoft.cu)
+- 👨‍🔧 I work in [Scanntech](https://scanntech.com.br/)
 
 - 📝 I regularly write articles on [https://www.blastkode.com/blog](https://www.blastkode.com/blog)
 
