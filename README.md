@@ -16,14 +16,12 @@
 ### Blog posts
 
 <!-- BLOG-POST-LIST:START -->
-
 - [Vue 3 with Typescript and Decorators](https://www.blastkode.com/en/vue3-with-ypescript-and-decorators)
 - [Vue 3 con Typescript y Decoradores](https://www.blastkode.com/es/vue3-with-ypescript-and-decorators)
 - [Las 10 principales extensiones de VS Code en el 2021](https://www.blastkode.com/es/top-ten-visual-studio-code)
 - [Top 10 VS Code extension for 2021](https://www.blastkode.com/en/top-ten-visual-studio-code)
 - [Building FullStack Web app with Angular, NestJS and Nx](https://www.blastkode.com/en/building-full-stack-web-applications-with-angular-nestjs-nx)
 - [Creación de apps web FullStack con Angular, NestJS y Nx](https://www.blastkode.com/es/building-full-stack-web-applications-with-angular-nestjs-nx)
-
 <!-- BLOG-POST-LIST:END -->
 
 <h3 align="left">Connect with me:</h3>
