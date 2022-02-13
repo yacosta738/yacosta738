@@ -9,19 +9,19 @@
 
 - 👨‍🔧 I work in [Scanntech](https://scanntech.com.br/)
 
-- 📝 I regularly write articles on [https://www.blastkode.com/blog](https://www.blastkode.com/blog)
+- 📝 I regularly write articles on [https://www.yunielacosta.com/blog](https://www.yunielacosta.com/blog)
 
-- 🥼🧪 Know about my work experiences [https://blastkode.com/yuniel-acosta](https://blastkode.com/yuniel-acosta)
+- 🥼🧪 Know about my work experiences [https://yunielacosta.com/yuniel-acosta](https://yunielacosta.com/yuniel-acosta)
 
 ### Blog posts
 
 <!-- BLOG-POST-LIST:START -->
-- [Vue 3 with Typescript and Decorators](https://www.blastkode.com/en/vue3-with-ypescript-and-decorators)
-- [Vue 3 con Typescript y Decoradores](https://www.blastkode.com/es/vue3-with-ypescript-and-decorators)
-- [Las 10 principales extensiones de VS Code en el 2021](https://www.blastkode.com/es/top-ten-visual-studio-code)
-- [Top 10 VS Code extension for 2021](https://www.blastkode.com/en/top-ten-visual-studio-code)
-- [Building FullStack Web app with Angular, NestJS and Nx](https://www.blastkode.com/en/building-full-stack-web-applications-with-angular-nestjs-nx)
-- [Creación de apps web FullStack con Angular, NestJS y Nx](https://www.blastkode.com/es/building-full-stack-web-applications-with-angular-nestjs-nx)
+- [Vue 3 with Typescript and Decorators](https://www.yunielacosta.com/en/vue3-with-ypescript-and-decorators)
+- [Vue 3 con Typescript y Decoradores](https://www.yunielacosta.com/es/vue3-with-ypescript-and-decorators)
+- [Las 10 principales extensiones de VS Code en el 2021](https://www.yunielacosta.com/es/top-ten-visual-studio-code)
+- [Top 10 VS Code extension for 2021](https://www.yunielacosta.com/en/top-ten-visual-studio-code)
+- [Building FullStack Web app with Angular, NestJS and Nx](https://www.yunielacosta.com/en/building-full-stack-web-applications-with-angular-nestjs-nx)
+- [Creación de apps web FullStack con Angular, NestJS y Nx](https://www.yunielacosta.com/es/building-full-stack-web-applications-with-angular-nestjs-nx)
 <!-- BLOG-POST-LIST:END -->
 
 <h3 align="left">Connect with me:</h3>
@@ -30,7 +30,7 @@
 <a href="https://twitter.com/yacosta738" target="blank"><img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/twitter/twitter-original.svg" alt="yacosta738" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/yacosta738" target="blank"><img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg" alt="yacosta738" height="30" width="40" /></a>
 <a href="https://fb.com/yacosta738" target="blank"><img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/facebook/facebook-original.svg" alt="yacosta738" height="30" width="40" /></a>
-<a href="https:/www.blastkode.com/rss" target="blank"><img align="center" src="assets/blastkode.svg" alt="www.blastkode.com/rss" height="30" width="40" /></a>
+<a href="https:/www.yunielacosta.com/rss" target="blank"><img align="center" src="assets/blastkode.svg" alt="www.yunielacosta.com/rss" height="30" width="40" /></a>
 </p>
 
 <details>
