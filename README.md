@@ -7,11 +7,11 @@
 
 <p align="left"> <a href="https://twitter.com/yacosta738" target="blank"><img src="https://img.shields.io/twitter/follow/yacosta738?logo=twitter&style=for-the-badge" alt="yacosta738" /></a> </p>
 
-- 👨‍🔧 I work in [Scanntech](https://scanntech.com.br/)
+- 👨‍🔧 [Some Things I’ve Built](https://www.yunielacosta.com/#projects)
 
 - 📝 I regularly write articles on [https://www.yunielacosta.com/blog](https://www.yunielacosta.com/blog)
 
-- 🥼🧪 Know about my work experiences [https://yunielacosta.com/yuniel-acosta](https://yunielacosta.com/yuniel-acosta)
+- 🥼🧪 Know about my [work experiences](https://www.yunielacosta.com/#jobs)
 
 ### Blog posts
 
