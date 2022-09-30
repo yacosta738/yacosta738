@@ -16,12 +16,12 @@
 ### Blog posts
 
 <!-- BLOG-POST-LIST:START -->
+- [FREE HOSTINGS for WEB projects with JAVASCRIPT](https://yunielacosta.com/blog/javascript-free-hosts/)
 - [From Gridsome to Nuxt to Astro - Rebuilding with Astro](https://yunielacosta.com/blog/rebuilding-site-with-astro/)
 - [Vue 3 with Typescript and Decorators](https://yunielacosta.com/blog/vue-3-with-typescript-and-decorators/)
 - [Top 10 VS Code extension for 2021](https://yunielacosta.com/blog/top-10-vs-code-extension-for-2021/)
 - [Building FullStack Web app with Angular, NestJS and Nx](https://yunielacosta.com/blog/building-fullstack-web-applications-with-angular-nestjs-and-nx/)
 - [Customizing Github Profile Page](https://yunielacosta.com/blog/customizing-github-profile-page/)
-- [Countdown to new year](https://yunielacosta.com/blog/countdown-to-new-year-astronomy/)
 <!-- BLOG-POST-LIST:END -->
 
 <h3 align="left">Connect with me:</h3>
