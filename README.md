@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Yuniel Acosta</h1>
-<h3 align="center">I’m a software engineer, technology and science enthusiast, specialized in building mobile and web applications.</h3>
+<h3 align="center">I’m a software engineer with approximately 5 years working in software development. Proficiency with front-end and back-end technologies. Technology and science enthusiast. I am experienced with Web Application Architecture, Software Design Principles, and Software Design Patterns. Interested in object-oriented programming, design patterns, functional programming, domain-driven design, and microservices. I am a versatile person with wide-ranging skills, eager to learn, and ready to face new and tough challenges in or out of my country.</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=yacosta738&label=Profile%20views&color=0e75b6&style=flat" alt="yacosta738" /> </p>
 
