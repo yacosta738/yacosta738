@@ -16,12 +16,12 @@
 ### Blog posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Maximizing Productivity and Alignment with OKRs: A Guide to Setting and Achieving Objectives](https://yunielacosta.com/blog/maximizing-productivity-and-alignment-with-okrs-a-guide-to-setting-and-achieving-objectives/)
 - [Caching results with Spring Boot](https://yunielacosta.com/blog/caching-results-with-spring-boot/)
 - [Web Performance](https://yunielacosta.com/blog/2022-10-13-web-performance/)
 - [Java Features](https://yunielacosta.com/blog/java-features/)
 - [FREE HOSTINGS for WEB projects with JAVASCRIPT](https://yunielacosta.com/blog/javascript-free-hosts/)
 - [From Gridsome to Nuxt to Astro - Rebuilding with Astro](https://yunielacosta.com/blog/rebuilding-site-with-astro/)
-- [Vue 3 with Typescript and Decorators](https://yunielacosta.com/blog/vue-3-with-typescript-and-decorators/)
 <!-- BLOG-POST-LIST:END -->
 
 <h3 align="left">Connect with me:</h3>
