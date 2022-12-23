@@ -1,5 +1,6 @@
 [![MasterHead](assets/github-banner.png)](https://github.com/yacosta738)
-<h3 align="center">I’m a software engineer with approximately 5 years working in software development. Proficiency with front-end and back-end technologies. Technology and science enthusiast. I am experienced with Web Application Architecture, Software Design Principles, and Software Design Patterns. Interested in object-oriented programming, design patterns, functional programming, domain-driven design, and microservices. I am a versatile person with wide-ranging skills, eager to learn, and ready to face new and tough challenges in or out of my country.</h3>
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=64FFDA&width=435&lines=If+I+cannot+do+great+things%2C;+I+can+do+small+things+in+a+great+way.)](https://git.io/typing-svg)
+<p>I’m a software engineer with approximately 5 years working in software development. Proficiency with front-end and back-end technologies. Technology and science enthusiast. I am experienced with Web Application Architecture, Software Design Principles, and Software Design Patterns. Interested in object-oriented programming, design patterns, functional programming, domain-driven design, and microservices. I am a versatile person with wide-ranging skills, eager to learn, and ready to face new and tough challenges in or out of my country.</p>
 
 <p style="text-align: left;"> <img src="https://komarev.com/ghpvc/?username=yacosta738&label=Profile%20views&color=0e75b6&style=flat" alt="yacosta738" /> </p>
 
