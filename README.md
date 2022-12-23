@@ -43,10 +43,10 @@
 have the most code on GitHub, it's a new feature
 of [github-readme-stats](https://github.com/yacosta738/github-readme-stats)*
 <div>
-  <img align="left" src="https://github-readme-stats-yacosta738.vercel.app/api/top-langs?username=yacosta738&show_icons=true&locale=en&langs_count=10&theme=vue-dark" alt="Yuniel's github stats" />
-  <img align="right" src="https://github-readme-stats-taupe-two.vercel.app/api/wakatime?username=yacosta738&hide_title=true&hide_border=true&langs_count=10&bg_color=00000000&text_color=777" alt="Yuniel's time coding stats" />
+  ![Yuniel's GitHub stats](https://github-stats-profile.vercel.app/api/top-langs?username=yacosta738&show_icons=true&locale=en&langs_count=10&theme=vue-dark&count_private=true)
+  <img align="right" src="https://github-stats-profile.vercel.app/api/wakatime?username=yacosta738&hide_title=true&hide_border=true&langs_count=10&bg_color=00000000&text_color=777" alt="Yuniel's time coding stats" />
 </div>
-<div>&nbsp;<img align="center" src="https://github-readme-stats-yacosta738.vercel.app/api?username=yacosta738&show_icons=true&locale=en&theme=vue-dark" alt="yacosta738" /></div>
+<div>&nbsp;<img align="center" src="https://github-stats-profile.vercel.app/api?username=yacosta738&show_icons=true&locale=en&theme=vue-dark" alt="yacosta738" /></div>
 
 <div><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=yacosta738&theme=vue-dark" alt="yacosta738" /></div>
 
