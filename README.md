@@ -10,18 +10,19 @@
 <h3 style="text-align: left;">Connect with me:</h3>
 <p style="text-align: left;">
   <a href="https://twitter.com/yacosta738" target="blank">
-    <img src="https://api.iconify.design/mdi:twitter.svg" alt="Twitter" height="30" width="40" />
+    <img style="display: inline-block; margin: 0 10px; background-color: #0a192f; color: #64ffda;" src="https://api.iconify.design/mdi:twitter.svg" alt="Twitter" height="30" width="40" />
   </a>
   <a href="https://www.linkedin.com/in/yacosta738" target="blank">
-    <img src="https://api.iconify.design/mdi:linkedin.svg" alt="Linkedin" height="30" width="40" />
+    <img style="display: inline-block; margin: 0 10px; background-color: #0a192f; color: #64ffda;" src="https://api.iconify.design/mdi:linkedin.svg" alt="Linkedin" height="30" width="40" />
   </a>
   <a href="https://www.instagram.com/yacosta738" target="blank">
-    <img src="https://api.iconify.design/mdi:instagram.svg" alt="Instagram" height="30" width="40" />
+    <img style="display: inline-block; margin: 0 10px; background-color: #0a192f; color: #64ffda;" src="https://api.iconify.design/mdi:instagram.svg" alt="Instagram" height="30" width="40" />
   </a>
   <a href="https://www.yunielacosta.com/" target="blank">
-    <img src="https://api.iconify.design/mdi:star-shooting-outline.svg" alt="Portfolio" height="30" width="40" />
+    <img style="display: inline-block; margin: 0 10px; background-color: #0a192f; color: #64ffda;" src="https://api.iconify.design/mdi:star-shooting-outline.svg" alt="Portfolio" height="30" width="40" />
   </a>
 </p>
+
 
 
 - 👨‍🔧 [Some Things I’ve Built](https://www.yunielacosta.com/#projects)
