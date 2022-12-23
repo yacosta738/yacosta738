@@ -30,7 +30,7 @@
 
 - :satellite: [Some Things I’ve Built](https://www.yunielacosta.com/#projects)
 
-- :memo: I regularly write articles on [https://www.yunielacosta.com/blog](https://www.yunielacosta.com/blog)
+- :memo: I regularly write articles on [my blog](https://www.yunielacosta.com/blog)
 
 - :computer: Know about my [work experiences](https://www.yunielacosta.com/#jobs)
 
@@ -56,16 +56,12 @@
 have the most code on GitHub, it's a new feature
 of [github-readme-stats](https://github.com/yacosta738/github-readme-stats)*
 
-<style>
-td, th {
-   border: none!important;
-}
-</style>
 
 | ![Acosta's GitHub Stats](https://github-stats-profile.vercel.app/api?username=yacosta738&show_icons=true&locale=en&theme=vue-dark)                                                                | ![Acosta's GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=yacosta738&theme=vue-dark)                                                         |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ![Yuniel's Time Coding Stats](https://github-readme-stats-taupe-two.vercel.app/api/wakatime?username=yacosta738&hide_title=true&hide_border=true&langs_count=10&bg_color=00000000&text_color=777) | ![Most Used Languages in GitHub](https://github-stats-profile.vercel.app/api/top-langs?username=yacosta738&show_icons=true&locale=en&langs_count=10&theme=vue-dark) |
 
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
 
-
-
+![Jokes Card](https://readme-jokes.vercel.app/api?theme=vue-dark)
