@@ -61,7 +61,7 @@ of [github-readme-stats](https://github.com/yacosta738/github-readme-stats)*
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ![Yuniel's Time Coding Stats](https://github-readme-stats-taupe-two.vercel.app/api/wakatime?username=yacosta738&hide_title=true&hide_border=true&langs_count=10&bg_color=00000000&text_color=777) | ![Most Used Languages in GitHub](https://github-stats-profile.vercel.app/api/top-langs?username=yacosta738&show_icons=true&locale=en&langs_count=10&theme=vue-dark) |
 
+![Jokes Card](https://readme-jokes.vercel.app/api?theme=vue-dark)
+
 <!--START_SECTION:waka-->
 <!--END_SECTION:waka-->
-
-![Jokes Card](https://readme-jokes.vercel.app/api?theme=vue-dark)
