@@ -37,12 +37,12 @@
 ### Blog posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Hibernate Tutorial: Dialects in Hibernate](https://yunielacosta.com/blog/hibernate-tutorial-dialects-in-hibernate/)
 - [OKRs: Boosting Productivity and Alignment](https://yunielacosta.com/blog/maximizing-productivity-and-alignment-with-okrs-a-guide-to-setting-and-achieving-objectives/)
 - [Caching results with Spring Boot](https://yunielacosta.com/blog/caching-results-with-spring-boot/)
 - [Web Performance](https://yunielacosta.com/blog/2022-10-13-web-performance/)
 - [Java Features](https://yunielacosta.com/blog/java-features/)
 - [FREE HOSTINGS for WEB projects with JAVASCRIPT](https://yunielacosta.com/blog/javascript-free-hosts/)
-- [From Gridsome to Nuxt to Astro - Rebuilding with Astro](https://yunielacosta.com/blog/rebuilding-site-with-astro/)
 <!-- BLOG-POST-LIST:END -->
 
 
