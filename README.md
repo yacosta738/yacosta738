@@ -37,12 +37,12 @@
 ### Blog posts
 
 <!-- BLOG-POST-LIST:START -->
+- [How to Order Your Spring Boot Tests with JUnit 5](https://yunielacosta.com/blog/how-to-order-your-spring-boot-tests-with-junit-5/)
 - [From Linux to macOS. My opinion](https://yunielacosta.com/blog/from-linux-to-macos-my-opinion/)
 - [Hibernate Tutorial: Dialects in Hibernate](https://yunielacosta.com/blog/hibernate-tutorial-dialects-in-hibernate/)
 - [OKRs: Boosting Productivity and Alignment](https://yunielacosta.com/blog/maximizing-productivity-and-alignment-with-okrs-a-guide-to-setting-and-achieving-objectives/)
 - [Caching results with Spring Boot](https://yunielacosta.com/blog/caching-results-with-spring-boot/)
 - [Web Performance](https://yunielacosta.com/blog/2022-10-13-web-performance/)
-- [Java Features](https://yunielacosta.com/blog/java-features/)
 <!-- BLOG-POST-LIST:END -->
 
 
