@@ -37,12 +37,12 @@
 ### Blog posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Singleton pattern](https://yunielacosta.com/blog/singleton-pattern/)
+- [15 Ways To Improve The Speed of Your Java Application](https://yunielacosta.com/blog/15-ways-to-improve-the-speed-of-your-java-application/)
 - [How to Order Your Spring Boot Tests with JUnit 5](https://yunielacosta.com/blog/how-to-order-your-spring-boot-tests-with-junit-5/)
 - [From Linux to macOS. My opinion](https://yunielacosta.com/blog/from-linux-to-macos-my-opinion/)
 - [Hibernate Tutorial: Dialects in Hibernate](https://yunielacosta.com/blog/hibernate-tutorial-dialects-in-hibernate/)
 - [OKRs: Boosting Productivity and Alignment](https://yunielacosta.com/blog/maximizing-productivity-and-alignment-with-okrs-a-guide-to-setting-and-achieving-objectives/)
-- [Caching results with Spring Boot](https://yunielacosta.com/blog/caching-results-with-spring-boot/)
-- [Web Performance](https://yunielacosta.com/blog/2022-10-13-web-performance/)
 <!-- BLOG-POST-LIST:END -->
 
 
