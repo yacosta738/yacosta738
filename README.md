@@ -34,7 +34,7 @@
 
 - :computer: Know about my [work experiences](https://www.yunielacosta.com/#jobs)
 
-### Blog posts
+## Blog posts
 
 <!-- BLOG-POST-LIST:START -->
 - [Singleton pattern](https://yunielacosta.com/blog/singleton-pattern/)
