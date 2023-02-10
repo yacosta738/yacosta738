@@ -37,12 +37,12 @@
 ## Blog posts
 
 <!-- BLOG-POST-LIST:START -->
+- [5 Must-Have Tools for 2023: From Smart Photo Editing to AI-Powered Copywriting](https://yunielacosta.com/blog/5-must-have-tools-for-2023-from-smart-photo-editing-to-ai-powered-copywriting/)
 - [Singleton pattern](https://yunielacosta.com/blog/singleton-pattern/)
 - [15 Ways To Improve The Speed of Your Java Application](https://yunielacosta.com/blog/15-ways-to-improve-the-speed-of-your-java-application/)
 - [How to Order Your Spring Boot Tests with JUnit 5](https://yunielacosta.com/blog/how-to-order-your-spring-boot-tests-with-junit-5/)
 - [From Linux to macOS. My opinion](https://yunielacosta.com/blog/from-linux-to-macos-my-opinion/)
 - [Hibernate Tutorial: Dialects in Hibernate](https://yunielacosta.com/blog/hibernate-tutorial-dialects-in-hibernate/)
-- [OKRs: Boosting Productivity and Alignment](https://yunielacosta.com/blog/maximizing-productivity-and-alignment-with-okrs-a-guide-to-setting-and-achieving-objectives/)
 <!-- BLOG-POST-LIST:END -->
 
 
