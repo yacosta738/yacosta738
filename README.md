@@ -34,15 +34,15 @@
 
 - :computer: Know about my [work experiences](https://www.yunielacosta.com/#jobs)
 
-### Blog posts
+## Blog posts
 
 <!-- BLOG-POST-LIST:START -->
-- [OKRs: Boosting Productivity and Alignment](https://yunielacosta.com/blog/maximizing-productivity-and-alignment-with-okrs-a-guide-to-setting-and-achieving-objectives/)
-- [Caching results with Spring Boot](https://yunielacosta.com/blog/caching-results-with-spring-boot/)
-- [Web Performance](https://yunielacosta.com/blog/2022-10-13-web-performance/)
-- [Java Features](https://yunielacosta.com/blog/java-features/)
-- [FREE HOSTINGS for WEB projects with JAVASCRIPT](https://yunielacosta.com/blog/javascript-free-hosts/)
-- [From Gridsome to Nuxt to Astro - Rebuilding with Astro](https://yunielacosta.com/blog/rebuilding-site-with-astro/)
+- [5 Must-Have Tools for 2023: From Smart Photo Editing to AI-Powered Copywriting](https://yunielacosta.com/blog/5-must-have-tools-for-2023-from-smart-photo-editing-to-ai-powered-copywriting/)
+- [Singleton pattern](https://yunielacosta.com/blog/singleton-pattern/)
+- [15 Ways To Improve The Speed of Your Java Application](https://yunielacosta.com/blog/15-ways-to-improve-the-speed-of-your-java-application/)
+- [How to Order Your Spring Boot Tests with JUnit 5](https://yunielacosta.com/blog/how-to-order-your-spring-boot-tests-with-junit-5/)
+- [From Linux to macOS. My opinion](https://yunielacosta.com/blog/from-linux-to-macos-my-opinion/)
+- [Hibernate Tutorial: Dialects in Hibernate](https://yunielacosta.com/blog/hibernate-tutorial-dialects-in-hibernate/)
 <!-- BLOG-POST-LIST:END -->
 
 
@@ -60,6 +60,8 @@ of [github-readme-stats](https://github.com/yacosta738/github-readme-stats)*
 | ![Acosta's GitHub Stats](https://github-stats-profile.vercel.app/api?username=yacosta738&show_icons=true&locale=en&theme=vue-dark)                                                                | ![Acosta's GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=yacosta738&theme=vue-dark)                                                         |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ![Yuniel's Time Coding Stats](https://github-readme-stats-taupe-two.vercel.app/api/wakatime?username=yacosta738&hide_title=true&hide_border=true&langs_count=10&bg_color=00000000&text_color=777) | ![Most Used Languages in GitHub](https://github-stats-profile.vercel.app/api/top-langs?username=yacosta738&show_icons=true&locale=en&langs_count=10&theme=vue-dark) |
+
+![Jokes Card](https://readme-jokes.vercel.app/api?theme=vue-dark)
 
 <!--START_SECTION:waka-->
 **I'm an Early 🐤**
@@ -87,5 +89,3 @@ Go                       8 mins              █░░░░░░░░░░�
 
 
 <!--END_SECTION:waka-->
-
-![Jokes Card](https://readme-jokes.vercel.app/api?theme=vue-dark)
