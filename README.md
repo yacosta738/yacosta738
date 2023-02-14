@@ -16,7 +16,7 @@
 
 - :computer: Know about my [work experiences](https://www.yunielacosta.com/#jobs)
 
-## Blog posts
+## :memo: Blog posts
 
 <!-- BLOG-POST-LIST:START -->
 - [5 Must-Have Tools for 2023: From Smart Photo Editing to AI-Powered Copywriting](https://yunielacosta.com/blog/5-must-have-tools-for-2023-from-smart-photo-editing-to-ai-powered-copywriting/)
