@@ -27,17 +27,6 @@
 - [Hibernate Tutorial: Dialects in Hibernate](https://yunielacosta.com/blog/hibernate-tutorial-dialects-in-hibernate/)
 <!-- BLOG-POST-LIST:END -->
 
-*NOTE: Top languages does not indicate my skill level or something like that, it's a GitHub metric of which languages I
-have the most code on GitHub, it's a new feature
-of [github-readme-stats](https://github.com/yacosta738/github-readme-stats)*
-
-
-| ![Acosta's GitHub Stats](https://github-stats-profile.vercel.app/api?username=yacosta738&show_icons=true&locale=en&theme=vue-dark)                                                                | ![Acosta's GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=yacosta738&theme=vue-dark)                                                         |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ![Yuniel's Time Coding Stats](https://github-readme-stats-taupe-two.vercel.app/api/wakatime?username=yacosta738&hide_title=true&hide_border=true&langs_count=10&bg_color=00000000&text_color=777) | ![Most Used Languages in GitHub](https://github-stats-profile.vercel.app/api/top-langs?username=yacosta738&show_icons=true&locale=en&langs_count=10&theme=vue-dark) |
-
-![Jokes Card](https://readme-jokes.vercel.app/api?theme=vue-dark)
-
 <!--START_SECTION:waka-->
 **I'm an Early 🐤**
 
@@ -64,3 +53,15 @@ Go                       8 mins              █░░░░░░░░░░�
 
 
 <!--END_SECTION:waka-->
+
+
+*NOTE: Top languages does not indicate my skill level or something like that, it's a GitHub metric of which languages I
+have the most code on GitHub, it's a new feature
+of [github-readme-stats](https://github.com/yacosta738/github-readme-stats)*
+
+
+| ![Acosta's GitHub Stats](https://github-stats-profile.vercel.app/api?username=yacosta738&show_icons=true&locale=en&theme=vue-dark)                                                                | ![Acosta's GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=yacosta738&theme=vue-dark)                                                         |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![Yuniel's Time Coding Stats](https://github-readme-stats-taupe-two.vercel.app/api/wakatime?username=yacosta738&hide_title=true&hide_border=true&langs_count=10&bg_color=00000000&text_color=777) | ![Most Used Languages in GitHub](https://github-stats-profile.vercel.app/api/top-langs?username=yacosta738&show_icons=true&locale=en&langs_count=10&theme=vue-dark) |
+
+![Jokes Card](https://readme-jokes.vercel.app/api?theme=vue-dark)
