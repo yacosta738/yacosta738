@@ -19,12 +19,12 @@
 ## :memo: Blog posts
 
 <!-- BLOG-POST-LIST:START -->
+- [An Introduction to the Runtime Class in Java](https://yunielacosta.com/blog/an-introduction-to-the-runtime-class-in-java/)
+- [System Design Roadmap 2023: A Comprehensive Guide to Understanding System Design](https://yunielacosta.com/blog/system-design-roadmap-2023-a-comprehensive-guide-to-understanding-system-design/)
 - [Boost Your Java Testing with These 7 Incredible Libraries](https://yunielacosta.com/blog/boost-your-java-testing-with-these-7-incredible-libraries/)
 - [5 Must-Have Tools for 2023: From Smart Photo Editing to AI-Powered Copywriting](https://yunielacosta.com/blog/5-must-have-tools-for-2023-from-smart-photo-editing-to-ai-powered-copywriting/)
 - [Singleton pattern](https://yunielacosta.com/blog/singleton-pattern/)
 - [15 Ways To Improve The Speed of Your Java Application](https://yunielacosta.com/blog/15-ways-to-improve-the-speed-of-your-java-application/)
-- [How to Order Your Spring Boot Tests with JUnit 5](https://yunielacosta.com/blog/how-to-order-your-spring-boot-tests-with-junit-5/)
-- [From Linux to macOS. My opinion](https://yunielacosta.com/blog/from-linux-to-macos-my-opinion/)
 <!-- BLOG-POST-LIST:END -->
 
 <!--START_SECTION:waka-->
