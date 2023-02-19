@@ -55,10 +55,8 @@ Markdown                 17 mins             ░░░░░░░░░░░�
 <!--END_SECTION:waka-->
 
 
-*NOTE: Top languages does not indicate my skill level or something like that, it's a GitHub metric of which languages I
-have the most code on GitHub, it's a new feature
-of [github-readme-stats](https://github.com/yacosta738/github-readme-stats)*
-
-|![Acosta's GitHub Stats](https://github-stats-profile.vercel.app/api?username=yacosta738&show_icons=true&locale=en&theme=vue-dark)| ![Acosta's GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=yacosta738&theme=vue-dark)|
+| GitHub Stats  | GitHub Streak           |
+| ------- | ---------------- |
+| ![Acosta's GitHub Stats](https://github-stats-profile.vercel.app/api?username=yacosta738&show_icons=true&locale=en&theme=vue-dark)    | ![Acosta's GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=yacosta738&theme=vue-dark) |
 
 ![Jokes Card](https://readme-jokes.vercel.app/api?theme=vue-dark)
