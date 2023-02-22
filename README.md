@@ -19,12 +19,12 @@
 ## :memo: Blog posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Array list vs linked list java collections](https://yunielacosta.com/blog/array-list-vs-linked-list-java-collections/)
 - [Java Developers: Check Out These GitHub Repositories!](https://yunielacosta.com/blog/java-developers-check-out-these-github-repositories/)
 - [An Introduction to the Runtime Class in Java](https://yunielacosta.com/blog/an-introduction-to-the-runtime-class-in-java/)
 - [Differences Between TreeMap, HashMap, and LinkedHashMap in Java](https://yunielacosta.com/blog/differences-between-treemap-hashmap-and-linkedhashmap-in-java/)
 - [System Design Roadmap 2023: A Comprehensive Guide to Understanding System Design](https://yunielacosta.com/blog/system-design-roadmap-2023-a-comprehensive-guide-to-understanding-system-design/)
 - [Boost Your Java Testing with These 7 Incredible Libraries](https://yunielacosta.com/blog/boost-your-java-testing-with-these-7-incredible-libraries/)
-- [5 Must-Have Tools for 2023: From Smart Photo Editing to AI-Powered Copywriting](https://yunielacosta.com/blog/5-must-have-tools-for-2023-from-smart-photo-editing-to-ai-powered-copywriting/)
 <!-- BLOG-POST-LIST:END -->
 
 <!--START_SECTION:waka-->
