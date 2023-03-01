@@ -19,12 +19,12 @@
 ## :memo: Blog posts
 
 <!-- BLOG-POST-LIST:START -->
+- [[O] The Open-Closed Principle](https://yunielacosta.com/blog/o-the-open-closed-principle-extending-behaviors-without-modifying-code/)
+- [[S] The Single Responsibility Principle](https://yunielacosta.com/blog/s-the-single-responsibility-principle/)
 - [Array list vs linked list java collections](https://yunielacosta.com/blog/array-list-vs-linked-list-java-collections/)
 - [Java Developers: Check Out These GitHub Repositories!](https://yunielacosta.com/blog/java-developers-check-out-these-github-repositories/)
 - [An Introduction to the Runtime Class in Java](https://yunielacosta.com/blog/an-introduction-to-the-runtime-class-in-java/)
 - [Differences Between TreeMap, HashMap, and LinkedHashMap in Java](https://yunielacosta.com/blog/differences-between-treemap-hashmap-and-linkedhashmap-in-java/)
-- [System Design Roadmap 2023: A Comprehensive Guide to Understanding System Design](https://yunielacosta.com/blog/system-design-roadmap-2023-a-comprehensive-guide-to-understanding-system-design/)
-- [Boost Your Java Testing with These 7 Incredible Libraries](https://yunielacosta.com/blog/boost-your-java-testing-with-these-7-incredible-libraries/)
 <!-- BLOG-POST-LIST:END -->
 
 <!--START_SECTION:waka-->
