@@ -43,12 +43,12 @@ Markdown                 7 mins              ███████░░░░�
 ## :memo: Blog posts
 
 <!-- BLOG-POST-LIST:START -->
+- [[D] The Dependency Inversion Principle](https://yunielacosta.com/blog/d-the-dependency-inversion-principle/)
+- [[I] The Interface Segregation Principle](https://yunielacosta.com/blog/i-the-interface-segregation-principle/)
 - [[L] The Liskov Substitution Principle](https://yunielacosta.com/blog/l-the-liskov-substitution-principle/)
 - [[O] The Open-Closed Principle](https://yunielacosta.com/blog/o-the-open-closed-principle-extending-behaviors-without-modifying-code/)
 - [[S] The Single Responsibility Principle](https://yunielacosta.com/blog/s-the-single-responsibility-principle/)
 - [Array list vs linked list java collections](https://yunielacosta.com/blog/array-list-vs-linked-list-java-collections/)
-- [Java Developers: Check Out These GitHub Repositories!](https://yunielacosta.com/blog/java-developers-check-out-these-github-repositories/)
-- [An Introduction to the Runtime Class in Java](https://yunielacosta.com/blog/an-introduction-to-the-runtime-class-in-java/)
 <!-- BLOG-POST-LIST:END -->
 
 | GitHub Stats  | GitHub Streak           |
