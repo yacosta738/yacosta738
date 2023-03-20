@@ -4,13 +4,13 @@
 5+ years of experience working in software development, specializing in front-end and back-end technologies. I have an enthusiasm for technology and science, and have developed a deep understanding of software design principles and design patterns, as well as object-oriented programming, design patterns, functional programming, domain-driven design, and microservices. I am a versatile individual who is always eager to learn, and I am prepared to tackle any challenge that may come my way, whether it be within my country or abroad. My expertise in the software engineering field has enabled me to develop a skill set that is highly sought after in the industry. I am confident in my ability to adapt to new technologies, and I am always looking for ways to expand my knowledge and expertise.
 
 <!--START_SECTION:waka-->
-**I'm an Early 🐤** 
+**I'm a Night 🦉** 
 
 ```text
-🌞 Morning                0 commits           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
-🌆 Daytime                0 commits           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
-🌃 Evening                0 commits           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
-🌙 Night                  0 commits           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
+🌞 Morning                198 commits         ░░░░░░░░░░░░░░░░░░░░░░░░░   01.67 % 
+🌆 Daytime                2764 commits        ██████░░░░░░░░░░░░░░░░░░░   23.31 % 
+🌃 Evening                4328 commits        █████████░░░░░░░░░░░░░░░░   36.50 % 
+🌙 Night                  4567 commits        ██████████░░░░░░░░░░░░░░░   38.52 % 
 ```
 
 
@@ -18,9 +18,9 @@
 
 ```text
 💬 Programming Languages: 
-Markdown                 36 mins             ██████████░░░░░░░░░░░░░░░   40.02 % 
-Java                     27 mins             ████████░░░░░░░░░░░░░░░░░   30.23 % 
-YAML                     27 mins             ███████░░░░░░░░░░░░░░░░░░   29.76 % 
+Java                     1 hr 45 mins        █████████████░░░░░░░░░░░░   51.18 % 
+Markdown                 1 hr 3 mins         ████████░░░░░░░░░░░░░░░░░   30.66 % 
+YAML                     37 mins             █████░░░░░░░░░░░░░░░░░░░░   18.16 % 
 ```
 
 
