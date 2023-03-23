@@ -46,12 +46,12 @@ Other                    12 mins             █░░░░░░░░░░�
 ## :memo: Blog posts
 
 <!-- BLOG-POST-LIST:START -->
+- [SOLID Principles Explained: Building More Maintainable and Understandable Software](https://yunielacosta.com/blog/solid-principles-explained-building-more-maintainable-and-understandable-software/)
 - [[D] The Dependency Inversion Principle](https://yunielacosta.com/blog/d-the-dependency-inversion-principle/)
 - [[I] The Interface Segregation Principle](https://yunielacosta.com/blog/i-the-interface-segregation-principle/)
 - [[L] The Liskov Substitution Principle](https://yunielacosta.com/blog/l-the-liskov-substitution-principle/)
 - [[O] The Open-Closed Principle](https://yunielacosta.com/blog/o-the-open-closed-principle-extending-behaviors-without-modifying-code/)
 - [[S] The Single Responsibility Principle](https://yunielacosta.com/blog/s-the-single-responsibility-principle/)
-- [Array list vs linked list java collections](https://yunielacosta.com/blog/array-list-vs-linked-list-java-collections/)
 <!-- BLOG-POST-LIST:END -->
 
 | GitHub Stats  | GitHub Streak           |
