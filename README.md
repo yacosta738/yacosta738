@@ -1,7 +1,7 @@
 [![MasterHead](assets/github-banner.png)](https://github.com/yacosta738)
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=64FFDA&width=435&lines=If+I+cannot+do+great+things%2C;+I+can+do+small+things+in+a+great+way.)](https://git.io/typing-svg)
 
-5+ years of experience working in software development, specializing in front-end and back-end technologies. I have an enthusiasm for technology and science, and have developed a deep understanding of software design principles and design patterns, as well as object-oriented programming, design patterns, functional programming, domain-driven design, and microservices. I am a versatile individual who is always eager to learn, and I am prepared to tackle any challenge that may come my way, whether it be within my country or abroad. My expertise in the software engineering field has enabled me to develop a skill set that is highly sought after in the industry. I am confident in my ability to adapt to new technologies, and I am always looking for ways to expand my knowledge and expertise.
+6+ years of experience working in software development, specializing in front-end and back-end technologies. I have an enthusiasm for technology and science, and have developed a deep understanding of software design principles and design patterns, as well as object-oriented programming, design patterns, functional programming, domain-driven design, and microservices. I am a versatile individual who is always eager to learn, and I am prepared to tackle any challenge that may come my way, whether it be within my country or abroad. My expertise in the software engineering field has enabled me to develop a skill set that is highly sought after in the industry. I am confident in my ability to adapt to new technologies, and I am always looking for ways to expand my knowledge and expertise.
 
 <!--START_SECTION:waka-->
 **I'm a Night 🦉** 
@@ -18,10 +18,10 @@
 
 ```text
 💬 Programming Languages: 
-Kotlin                   27 hrs 27 mins      ███████████████████░░░░░░   75.79 % 
-Java                     3 hrs 41 mins       ███░░░░░░░░░░░░░░░░░░░░░░   10.20 % 
-YAML                     3 hrs 31 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   09.73 % 
-Markdown                 43 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.02 % 
+Kotlin                   27 hrs 27 mins      ██████████████████   75.79 % 
+Java                     3 hrs 41 mins       ███░░░░░░░░░░░░░░   10.20 % 
+YAML                     3 hrs 31 mins       ██░░░░░░░░░░░░░░   09.73 % 
+Markdown                 43 mins             █░░░░░░░░░░░░░  02.02 % 
 Text                     10 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.47 % 
 ```
 
