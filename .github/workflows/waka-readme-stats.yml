@@ -4,15 +4,24 @@ on:
   schedule:
     - cron: '00 15 * * *'
   workflow_dispatch:
+
+env:
+    GH_TOKEN: ${{ secrets.GH_TOKEN }}
+
 jobs:
   update-readme:
     name: Update Readme with Metrics
     runs-on: ubuntu-latest
     steps:
+      -   name: 🔍 GH_TOKEN
+          if: env.GH_TOKEN == ''
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          run: echo "GH_TOKEN=${GITHUB_TOKEN}" >> $GITHUB_ENV    
       - uses: anmol098/waka-readme-stats@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_TOKEN: ${{ env.GH_TOKEN }}
 
           SHOW_TOTAL_CODE_TIME: "False"
           SHOW_UPDATED_DATE: "False"
