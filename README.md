@@ -46,12 +46,12 @@ JavaScript               53 mins             █░░░░░░░░░░�
 ## :memo: Blog posts
 
 <!-- BLOG-POST-LIST:START -->
-- [Understanding CORS in Web Development](https://yunielacosta.com/blog/understanding-cors-in-web-development/)
-- [Understanding OAuth, OIDC, and SAML: Authentication vs Authorization](https://yunielacosta.com/blog/understanding-oauth-oidc-and-saml-authentication-vs-authorization/)
-- [SOLID Principles Explained: Building More Maintainable and Understandable Software](https://yunielacosta.com/blog/solid-principles-explained-building-more-maintainable-and-understandable-software/)
-- [[D] The Dependency Inversion Principle](https://yunielacosta.com/blog/d-the-dependency-inversion-principle/)
-- [[I] The Interface Segregation Principle](https://yunielacosta.com/blog/i-the-interface-segregation-principle/)
-- [[L] The Liskov Substitution Principle](https://yunielacosta.com/blog/l-the-liskov-substitution-principle/)
+- [Understanding CORS in Web Development](https://yunielacosta.com/posts/understanding-cors-in-web-development/)
+- [Understanding OAuth, OIDC, and SAML: Authentication vs Authorization](https://yunielacosta.com/posts/understanding-oauth-oidc-and-saml-authentication-vs-authorization/)
+- [SOLID Principles Explained: Building More Maintainable and Understandable Software](https://yunielacosta.com/posts/solid-principles-explained-building-more-maintainable-and-understandable-software/)
+- [[D] The Dependency Inversion Principle](https://yunielacosta.com/posts/d-the-dependency-inversion-principle/)
+- [[I] The Interface Segregation Principle](https://yunielacosta.com/posts/i-the-interface-segregation-principle/)
+- [[L] The Liskov Substitution Principle](https://yunielacosta.com/posts/l-the-liskov-substitution-principle/)
 <!-- BLOG-POST-LIST:END -->
 
 | GitHub Stats  | GitHub Streak           |
