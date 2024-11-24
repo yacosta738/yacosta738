@@ -66,7 +66,6 @@ Kotlin                   47 mins             █░░░░░░░░░░�
 | GitHub Stats  | GitHub Streak           |
 | ------- | ---------------- |
 | ![Acosta's GitHub Stats](https://github-stats-profile.vercel.app/api?username=yacosta738&show_icons=true&locale=en&theme=vue-dark)    | ![Acosta's GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=yacosta738&theme=vue-dark) |
-| ![Acosta's Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yacosta738&theme=vue-dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)  | ![](https://github-contributor-stats.vercel.app/api?username=yacosta738&limit=5&theme=vue-dark&combine_all_yearly_contributions=true)
- |
+| ![Acosta's Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yacosta738&theme=vue-dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)  | ![](https://github-contributor-stats.vercel.app/api?username=yacosta738&limit=5&theme=vue-dark&combine_all_yearly_contributions=true)|
 
 ![Jokes Card](https://readme-jokes.vercel.app/api?theme=vue-dark)
