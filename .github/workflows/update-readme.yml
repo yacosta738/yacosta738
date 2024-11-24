@@ -1,0 +1,43 @@
+name: Update Profile Readme
+
+on:
+  schedule:
+    - cron: '0 0 1 * *'
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Calculate years of experience
+        id: calc-experience
+        run: |
+          start_year=2017
+          start_month=9
+          current_year=$(date +'%Y')
+          current_month=$(date +'%m')
+          if [ "$current_month" -ge "$start_month" ]; then
+            experience=$((current_year - start_year))
+          else
+            experience=$((current_year - start_year - 1))
+          fi
+          echo "::set-output name=experience::$experience"
+
+      - name: Update README
+        run: |
+          experience=${{ steps.calc-experience.outputs.experience }}
+          sed -i "s/With over [0-9]\+ years of experience/With over $experience years of experience/" README.md
+
+      - name: Commit changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          git commit -m "Update years of experience in README"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
