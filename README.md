@@ -29,9 +29,9 @@ Kotlin                   47 mins             █░░░░░░░░░░�
 <!--END_SECTION:waka-->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
-  <img alt="github-snake" src="github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/yacosta738/yacosta738/blob/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/yacosta738/yacosta738/blob/output/github-snake.svg" />
+  <img alt="github-snake" src="https://github.com/yacosta738/yacosta738/blob/output/github-snake.svg" />
 </picture>
 
 <p style="text-align: left;"> <img src="https://komarev.com/ghpvc/?username=yacosta738&label=Profile%20views&color=64ffda&style=plastic&label=PROFILE+VIEWS" alt="yacosta738" /> </p>
