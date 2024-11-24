@@ -41,6 +41,11 @@ Kotlin                   47 mins             █░░░░░░░░░░�
 
 <p style="text-align: left;"> <img src="https://komarev.com/ghpvc/?username=yacosta738&label=Profile%20views&color=64ffda&style=plastic&label=PROFILE+VIEWS" alt="yacosta738" /> </p>
 
+![Years Badge](https://badges.pufler.dev/years/yacosta738)
+![Repos Badge](https://badges.pufler.dev/repos/yacosta738)
+![Gists Badge](https://badges.pufler.dev/gists/yacosta738)
+![Commits Badge](https://badges.pufler.dev/commits/yearly/yacosta738)
+
 <p style="text-align: left;"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=yacosta738" alt="yacosta738" /></a> </p>
 
 <p style="text-align: left;"> <a href="https://twitter.com/yacosta738" target="blank"><img src="https://img.shields.io/twitter/follow/yacosta738?logo=twitter&style=for-the-badge" alt="yacosta738" /></a> </p>
