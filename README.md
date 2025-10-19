@@ -60,12 +60,12 @@ JSON                     3 hrs 37 mins       ██░░░░░░░░░�
 ## :memo: Blog posts
 
 <!-- BLOG-POST-LIST:START -->
-- [Understanding CORS in Web Development](https://yunielacosta.com/posts/en/understanding-cors-in-web-development/)
-- [Understanding OAuth, OIDC, and SAML: Authentication vs Authorization](https://yunielacosta.com/posts/en/understanding-oauth-oidc-and-saml-authentication-vs-authorization/)
-- [SOLID Principles Explained: Building More Maintainable and Understandable Software](https://yunielacosta.com/posts/en/solid-principles-explained-building-more-maintainable-and-understandable-software/)
-- [[D] The Dependency Inversion Principle](https://yunielacosta.com/posts/en/d-the-dependency-inversion-principle/)
-- [[I] The Interface Segregation Principle](https://yunielacosta.com/posts/en/i-the-interface-segregation-principle/)
-- [[L] The Liskov Substitution Principle](https://yunielacosta.com/posts/en/l-the-liskov-substitution-principle/)
+- [Understanding CORS in Web Development](https://yunielacosta.com/en/blog/2023/)
+- [Understanding OAuth, OIDC, and SAML: Authentication vs Authorization](https://yunielacosta.com/en/blog/2023/)
+- [SOLID Principles Explained: Building More Maintainable and Understandable Software](https://yunielacosta.com/en/blog/2023/)
+- [[D] The Dependency Inversion Principle](https://yunielacosta.com/en/blog/2023/)
+- [[I] The Interface Segregation Principle](https://yunielacosta.com/en/blog/2023/)
+- [[L] The Liskov Substitution Principle](https://yunielacosta.com/en/blog/2023/)
 <!-- BLOG-POST-LIST:END -->
 
 | GitHub Stats  | GitHub Streak           |
