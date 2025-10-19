@@ -53,7 +53,7 @@ JSON                     3 hrs 37 mins       ██░░░░░░░░░�
 
 - :satellite: [Some Things I’ve Built](https://www.yunielacosta.com/#projects)
 
-- :memo: I regularly write articles on [my blog](https://www.yunielacosta.com/blog)
+- :memo: I regularly write articles on [my blog](https://www.yunielacosta.com/en/blog)
 
 - :computer: Know about my [work experiences](https://www.yunielacosta.com/#jobs)
 
