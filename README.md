@@ -7,27 +7,6 @@ With over 8 years of experience in software development, I specialize in front-e
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/yacosta738) [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/yacosta738) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/yacosta738) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/yacosta738) [![Pinterest](https://img.shields.io/badge/Pinterest-%23E60023.svg?logo=Pinterest&logoColor=white)](https://pinterest.com/yacosta738) [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/yacosta738) [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/9894376) [![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white)](https://tiktok.com/@yacosta738) [![Twitch](https://img.shields.io/badge/Twitch-%239146FF.svg?logo=Twitch&logoColor=white)](https://twitch.tv/yacosta738) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/yacosta738) [![Codepen](https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white)](https://codepen.io/yacosta738) 
 
 <!--START_SECTION:waka-->
-**I'm a Night 🦉** 
-
-```text
-🌞 Morning                17348 commits       ████░░░░░░░░░░░░░░░░░░░░░   17.74 % 
-🌆 Daytime                31136 commits       ████████░░░░░░░░░░░░░░░░░   31.84 % 
-🌃 Evening                37108 commits       █████████░░░░░░░░░░░░░░░░   37.94 % 
-🌙 Night                  12207 commits       ███░░░░░░░░░░░░░░░░░░░░░░   12.48 % 
-```
-
-
-📊 **This Week I Spent My Time On** 
-
-```text
-💬 Programming Languages: 
-Astro                    12 hrs 44 mins      ███████████░░░░░░░░░░░░░░   43.06 % 
-TypeScript               7 hrs 1 min         ██████░░░░░░░░░░░░░░░░░░░   23.74 % 
-JSON                     3 hrs 55 mins       ███░░░░░░░░░░░░░░░░░░░░░░   13.25 % 
-JavaScript               1 hr 8 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.86 % 
-Makefile                 58 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.32 % 
-```
-
 
 <!--END_SECTION:waka-->
 
