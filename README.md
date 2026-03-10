@@ -60,12 +60,12 @@ Other                    3 hrs 16 mins       █░░░░░░░░░░�
 ## :memo: Blog posts
 
 <!-- BLOG-POST-LIST:START -->
-- [Understanding CORS in Web Development](https://yunielacosta.com/en/blog/2023/04/03/understanding-cors-in-web-development/)
-- [Understanding OAuth, OIDC, and SAML: Authentication vs Authorization](https://yunielacosta.com/en/blog/2023/03/29/understanding-oauth-oidc-and-saml-authentication-vs-authorization/)
-- [SOLID Principles Explained: Building More Maintainable and Understandable Software](https://yunielacosta.com/en/blog/2023/03/23/solid-principles-explained-building-more-maintainable-and-understandable-software/)
-- [[D] The Dependency Inversion Principle](https://yunielacosta.com/en/blog/2023/03/18/d-the-dependency-inversion-principle/)
-- [[I] The Interface Segregation Principle](https://yunielacosta.com/en/blog/2023/03/17/i-the-interface-segregation-principle/)
-- [[L] The Liskov Substitution Principle](https://yunielacosta.com/en/blog/2023/03/08/l-the-liskov-substitution-principle/)
+- [Understanding CORS in Web Development](https://blog.yunielacosta.com/en/blog/2023/04/03/understanding-cors-in-web-development/)
+- [Understanding OAuth, OIDC, and SAML: Authentication vs Authorization](https://blog.yunielacosta.com/en/blog/2023/03/29/understanding-oauth-oidc-and-saml-authentication-vs-authorization/)
+- [SOLID Principles Explained: Building More Maintainable and Understandable Software](https://blog.yunielacosta.com/en/blog/2023/03/23/solid-principles-explained-building-more-maintainable-and-understandable-software/)
+- [[D] The Dependency Inversion Principle](https://blog.yunielacosta.com/en/blog/2023/03/18/d-the-dependency-inversion-principle/)
+- [[I] The Interface Segregation Principle](https://blog.yunielacosta.com/en/blog/2023/03/17/i-the-interface-segregation-principle/)
+- [[L] The Liskov Substitution Principle](https://blog.yunielacosta.com/en/blog/2023/03/08/l-the-liskov-substitution-principle/)
 <!-- BLOG-POST-LIST:END -->
 
 | GitHub Stats  | GitHub Streak           |
