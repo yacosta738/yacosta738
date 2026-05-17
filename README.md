@@ -10,10 +10,10 @@ With over 8 years of experience in software development, I specialize in front-e
 **I'm an Early 🐤** 
 
 ```text
-🌞 Morning                28817 commits       █████░░░░░░░░░░░░░░░░░░░░   21.48 % 
-🌆 Daytime                44514 commits       ████████░░░░░░░░░░░░░░░░░   33.18 % 
-🌃 Evening                48657 commits       █████████░░░░░░░░░░░░░░░░   36.27 % 
-🌙 Night                  12155 commits       ██░░░░░░░░░░░░░░░░░░░░░░░   09.06 % 
+🌞 Morning                29258 commits       █████░░░░░░░░░░░░░░░░░░░░   21.58 % 
+🌆 Daytime                45008 commits       ████████░░░░░░░░░░░░░░░░░   33.20 % 
+🌃 Evening                49136 commits       █████████░░░░░░░░░░░░░░░░   36.24 % 
+🌙 Night                  12166 commits       ██░░░░░░░░░░░░░░░░░░░░░░░   08.97 % 
 ```
 
 
@@ -21,11 +21,11 @@ With over 8 years of experience in software development, I specialize in front-e
 
 ```text
 💬 Programming Languages: 
-Markdown                 4 hrs 8 mins        ██████░░░░░░░░░░░░░░░░░░░   23.44 % 
-Other                    4 hrs 4 mins        ██████░░░░░░░░░░░░░░░░░░░   23.07 % 
-YAML                     1 hr 49 mins        ███░░░░░░░░░░░░░░░░░░░░░░   10.34 % 
-Kotlin                   1 hr 39 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   09.33 % 
-Bash                     1 hr 29 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   08.46 % 
+Markdown                 5 hrs 3 mins        ████████░░░░░░░░░░░░░░░░░   30.33 % 
+Other                    2 hrs 58 mins       ████░░░░░░░░░░░░░░░░░░░░░   17.88 % 
+Kotlin                   2 hrs 16 mins       ███░░░░░░░░░░░░░░░░░░░░░░   13.63 % 
+Astro                    1 hr 43 mins        ███░░░░░░░░░░░░░░░░░░░░░░   10.32 % 
+JSON                     1 hr 30 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   09.07 % 
 ```
 
 
