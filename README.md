@@ -7,6 +7,27 @@ With over 8 years of experience in software development, I specialize in front-e
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/yacosta738) [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/yacosta738) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/yacosta738) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/yacosta738) [![Pinterest](https://img.shields.io/badge/Pinterest-%23E60023.svg?logo=Pinterest&logoColor=white)](https://pinterest.com/yacosta738) [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/yacosta738) [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/9894376) [![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white)](https://tiktok.com/@yacosta738) [![Twitch](https://img.shields.io/badge/Twitch-%239146FF.svg?logo=Twitch&logoColor=white)](https://twitch.tv/yacosta738) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/yacosta738) [![Codepen](https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white)](https://codepen.io/yacosta738) 
 
 <!--START_SECTION:waka-->
+**I'm an Early 🐤** 
+
+```text
+🌞 Morning                31682 commits       ██████░░░░░░░░░░░░░░░░░░░   22.12 % 
+🌆 Daytime                47840 commits       ████████░░░░░░░░░░░░░░░░░   33.40 % 
+🌃 Evening                51796 commits       █████████░░░░░░░░░░░░░░░░   36.16 % 
+🌙 Night                  11933 commits       ██░░░░░░░░░░░░░░░░░░░░░░░   08.33 % 
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+💬 Programming Languages: 
+Kotlin                   15 hrs 25 mins      ███████░░░░░░░░░░░░░░░░░░   28.37 % 
+YAML                     10 hrs 25 mins      █████░░░░░░░░░░░░░░░░░░░░   19.17 % 
+Markdown                 8 hrs 29 mins       ████░░░░░░░░░░░░░░░░░░░░░   15.63 % 
+Rust                     3 hrs 52 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   07.12 % 
+Other                    3 hrs 46 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   06.95 % 
+```
+
 
 <!--END_SECTION:waka-->
 
