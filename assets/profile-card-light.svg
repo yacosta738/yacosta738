@@ -1,0 +1,76 @@
+<svg width="900" height="500" viewBox="0 0 900 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="500" fill="#ffffff" rx="6"/>
+
+  <!-- ASCII art (from scripts/image_to_ascii_svg.py, source: acosta-small.png) -->
+  <g transform="translate(0,10)">
+    <text x="10" y="18" font-family="monospace" font-size="7" fill="#64FFDA" xml:space="preserve">
+    <tspan x="10" dy="0">#####*********************************+*******************************</tspan>
+    <tspan x="10" dy="8">#########################***++==-==---:-=***##########################</tspan>
+    <tspan x="10" dy="8">#######################*+--:.... ...:.....:-=+*#######################</tspan>
+    <tspan x="10" dy="8">#####################*+-.:.::.......:..........-*#####################</tspan>
+    <tspan x="10" dy="8">####################*-::::::::::.:..::.....     :*####################</tspan>
+    <tspan x="10" dy="8">###################+:.::-:-::::::-::-:......     -####################</tspan>
+    <tspan x="10" dy="8">##################*: ...:....::::::-:.:...        +###################</tspan>
+    <tspan x="10" dy="8">##################*:   ..  .... ..... .           =###################</tspan>
+    <tspan x="10" dy="8">###################-                              +###################</tspan>
+    <tspan x="10" dy="8">###################-   .-:::..                   .*###################</tspan>
+    <tspan x="10" dy="8">###################+ ..=%%%%%*+-:::::......:::   :####################</tspan>
+    <tspan x="10" dy="8">###################+..:+%%@@@@@@%#*==---------.  :####################</tspan>
+    <tspan x="10" dy="8">###################*:::+%%%%@@%%%%%%#*==------.. :##**################</tspan>
+    <tspan x="10" dy="8">####################=:-*%%%@@@@%%%%%%%%#*=----:. =+******#############</tspan>
+    <tspan x="10" dy="8">##################*##-#%%%@@@@@@%%%%%%%##*=----:.-:=#*******##########</tspan>
+    <tspan x="10" dy="8">##################*###%#+=+**#####%##**+=-.::---:-:=#*******##########</tspan>
+    <tspan x="10" dy="8">################**####%#+-:.....-**=-:.. ...:---:::+*********#########</tspan>
+    <tspan x="10" dy="8">################***#**%@%%#*====+%#=-:::::::----::=************#######</tspan>
+    <tspan x="10" dy="8">###############*****#*%%%@@@%@@%%@%+-=+***++=---:-**************######</tspan>
+    <tspan x="10" dy="8">##############******#*%%%%%@@%%#%%%+-=#%%%##*=--.=****************####</tspan>
+    <tspan x="10" dy="8">*****####************=#%%%%%%#*#%@%+---*%##*+--:.******************###</tspan>
+    <tspan x="10" dy="8">*********************==##%#####**#*=:---+#*+--: -*******************##</tspan>
+    <tspan x="10" dy="8">*********************+:=*##*+++--::. ....:=--: .+********************#</tspan>
+    <tspan x="10" dy="8">**********************=.:=*-.::--:-:....  .:.  -**********************</tspan>
+    <tspan x="10" dy="8">***********************-..:..:*##***+--:. .   -***********************</tspan>
+    <tspan x="10" dy="8">*********************+-++....:-==----:...    ..=++********************</tspan>
+    <tspan x="10" dy="8">******************+=-==#%#-  ..::::.....   .::....:=+*****************</tspan>
+    <tspan x="10" dy="8">**************+===-=-==*%%%*:...::::...   .--:... ...:--=*************</tspan>
+    <tspan x="10" dy="8">**********+===--==-----=*%%%%=.         .:--:....  ... ...-=+*********</tspan>
+    <tspan x="10" dy="8">******++=----------------*%%%%#+:.....::----:....  ...........:=******</tspan>
+    <tspan x="10" dy="8">***+==--------------------+%%%%%#+---------:.  ..  ............ ::-***</tspan>
+    <tspan x="10" dy="8">++=------------------------=*%%%%%#+=----:..   ... ....... ......  :-+</tspan>
+    <tspan x="10" dy="8">-------:---------------------=+###%#*+-:..  .. ... ....... ...... .. .</tspan>
+    <tspan x="10" dy="8">-------:----------------:--------------::.... ............. ..........</tspan>
+    <tspan x="10" dy="8">-------:----------------::-::---------::::::............... ....... ..</tspan>
+  </text>
+  </g>
+
+  <g font-family="monospace" font-size="13" fill="#24292f">
+    <text x="360" y="30" fill="#64FFDA" font-weight="bold">yuniel@acosta</text>
+    <text x="360" y="45" fill="#64FFDA">-----------------</text>
+
+    <text x="360" y="65">OS: <tspan fill="#57606a">macOS, Arch Linux, Windows</tspan></text>
+    <text x="360" y="83">Uptime: <tspan id="uptime_data" fill="#57606a">calculating...</tspan></text>
+    <text x="360" y="101">Host: <tspan fill="#57606a">GFT Technology</tspan></text>
+    <text x="360" y="119">Kernel: <tspan fill="#57606a">Senior Fullstack Architect</tspan></text>
+    <text x="360" y="137">IDE: <tspan fill="#57606a">LazyVim, IntelliJ IDEA 2025.1</tspan></text>
+
+    <text x="360" y="163">Languages.Programming: <tspan fill="#57606a">Kotlin, Java, TypeScript, Rust</tspan></text>
+    <text x="360" y="181">Languages.Computer: <tspan fill="#57606a">HTML, CSS, JSON, YAML</tspan></text>
+    <text x="360" y="199">Languages.Real: <tspan fill="#57606a">Spanish, English</tspan></text>
+
+    <text x="360" y="225">Hobbies.Software: <tspan fill="#57606a">AI Agents</tspan></text>
+    <text x="360" y="243">Hobbies.Hardware: <tspan fill="#57606a">Home Assistant / Domotics</tspan></text>
+
+    <text x="360" y="269" fill="#64FFDA" font-weight="bold">Contact</text>
+    <text x="360" y="287">Email.Personal: <tspan fill="#57606a">contact@yunielacosta.com</tspan></text>
+    <text x="360" y="305">Email.Work: <tspan fill="#57606a">yuniel.acosta@gft.com</tspan></text>
+    <text x="360" y="323">LinkedIn: <tspan fill="#57606a">yacosta738</tspan></text>
+    <text x="360" y="341">Discord: <tspan fill="#57606a">yacosta738</tspan></text>
+    <text x="360" y="359">X: <tspan fill="#57606a">yacosta738</tspan></text>
+    <text x="360" y="377">Website: <tspan fill="#57606a">yunielacosta.com</tspan></text>
+    <text x="360" y="395">Blog: <tspan fill="#57606a">blog.yunielacosta.com</tspan></text>
+
+    <text x="360" y="421" fill="#64FFDA" font-weight="bold">GitHub Stats</text>
+    <text x="360" y="439">Repos: <tspan id="repo_data" fill="#57606a">...</tspan> {Contributed: <tspan id="contrib_data" fill="#57606a">...</tspan>} | Stars: <tspan id="star_data" fill="#57606a">...</tspan></text>
+    <text x="360" y="457">Commits: <tspan id="commit_data" fill="#57606a">...</tspan> | Followers: <tspan id="follower_data" fill="#57606a">...</tspan></text>
+    <text x="360" y="475">Lines of Code: <tspan id="loc_total" fill="#57606a">...</tspan> ( <tspan id="loc_add" fill="#3fb950">...</tspan>++, <tspan id="loc_del" fill="#f85149">...</tspan>-- )</text>
+  </g>
+</svg>

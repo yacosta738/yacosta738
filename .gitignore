@@ -154,3 +154,9 @@ local.properties
 # Local History for Visual Studio Code
 .history/
 
+
+# Python (profile card scripts)
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
