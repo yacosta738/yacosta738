@@ -61,17 +61,24 @@
     },
     {
       "description": "Group all TypeScript packages together",
-      "matchPackagePatterns": ["^@types/", "^typescript$"],
       "matchUpdateTypes": ["patch", "minor"],
       "groupName": "typescript",
-      "automerge": true
+      "automerge": true,
+      "matchPackageNames": [
+        "/^@types//",
+        "/^typescript$/"
+      ]
     },
     {
       "description": "Group lint/format tools",
-      "matchPackagePatterns": ["eslint", "prettier", "stylelint"],
       "matchUpdateTypes": ["patch", "minor"],
       "groupName": "linters",
-      "automerge": true
+      "automerge": true,
+      "matchPackageNames": [
+        "/eslint/",
+        "/prettier/",
+        "/stylelint/"
+      ]
     }
   ]
 }
