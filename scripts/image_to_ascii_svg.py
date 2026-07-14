@@ -13,7 +13,9 @@ produce a fixed <tspan> block that gets pasted into the SVG templates by hand.
 import argparse
 from xml.sax.saxutils import escape
 
-from PIL import Image
+from statistics import median
+
+from PIL import Image, ImageOps
 
 # Density ramp from "empty" (dark background) to "full ink" (bright highlight).
 RAMP = " .:-=+*#%@"
@@ -29,18 +31,58 @@ def luminance_to_char(luminance: int, ramp: str) -> str:
     return ramp[index]
 
 
-def image_to_ascii_rows(image_path: str, cols: int) -> list[str]:
-    """Loads an image and returns a list of ASCII-art rows (strings)."""
-    image = Image.open(image_path).convert("L")
+def estimate_background_color(image: Image.Image) -> tuple[int, int, int]:
+    """Estimate a portrait backdrop from samples along the upper side edges."""
     width, height = image.size
-    rows = round((height / width) * cols * CHAR_ASPECT_RATIO)
+    samples = []
+    step = max(1, height // 100)
+    for y in range(int(height * 0.1), int(height * 0.75), step):
+        for x in (0, int(width * 0.02), int(width * 0.98), width - 1):
+            samples.append(image.getpixel((x, y)))
+    return tuple(round(median(pixel[channel] for pixel in samples)) for channel in range(3))
+
+
+def is_background_pixel(pixel: tuple[int, int, int], background: tuple[int, int, int]) -> bool:
+    """Detect the smooth, red-dominant backdrop without erasing skin tones."""
+    red, green, blue = pixel
+    bg_red, bg_green, bg_blue = background
+    distance = sum((value - bg) ** 2 for value, bg in zip(pixel, background)) ** 0.5
+    return (
+        distance < 75
+        and red - green > (bg_red - bg_green) - 20
+        and green - blue < (bg_green - bg_blue) + 20
+    )
+
+
+def image_to_ascii_rows(image_path: str, cols: int, *, invert: bool = False,
+                        remove_background: bool = False,
+                        char_aspect_ratio: float = CHAR_ASPECT_RATIO) -> list[str]:
+    """Loads an image and returns a list of ASCII-art rows (strings)."""
+    image = Image.open(image_path).convert("RGB")
+    width, height = image.size
+    rows = round((height / width) * cols * char_aspect_ratio)
     resized = image.resize((cols, rows))
-    pixels = list(resized.getdata())
+    grayscale = ImageOps.autocontrast(resized.convert("L"), cutoff=1)
+    background = estimate_background_color(image) if remove_background else None
 
     ascii_rows = []
     for row_index in range(rows):
-        row_pixels = pixels[row_index * cols : (row_index + 1) * cols]
-        ascii_rows.append("".join(luminance_to_char(p, RAMP) for p in row_pixels))
+        chars = []
+        for column_index in range(cols):
+            pixel = resized.getpixel((column_index, row_index))
+            if background and is_background_pixel(pixel, background):
+                chars.append(" ")
+                continue
+            luminance = grayscale.getpixel((column_index, row_index))
+            if invert:
+                luminance = 255 - luminance
+            chars.append(luminance_to_char(luminance, RAMP))
+        ascii_rows.append("".join(chars))
+    if remove_background:
+        while ascii_rows and not ascii_rows[0].strip():
+            ascii_rows.pop(0)
+        while ascii_rows and not ascii_rows[-1].strip():
+            ascii_rows.pop()
     return ascii_rows
 
 
@@ -65,11 +107,20 @@ def main() -> None:
     parser.add_argument("--color", default="#64FFDA")
     parser.add_argument("--font-size", type=int, default=9)
     parser.add_argument("--line-height", type=int, default=10)
+    parser.add_argument("--char-aspect-ratio", type=float, default=CHAR_ASPECT_RATIO)
+    parser.add_argument("--invert", action="store_true")
+    parser.add_argument("--remove-background", action="store_true")
     parser.add_argument("--x", type=int, default=10)
     parser.add_argument("--y", type=int, default=20)
     args = parser.parse_args()
 
-    rows = image_to_ascii_rows(args.image, args.cols)
+    rows = image_to_ascii_rows(
+        args.image,
+        args.cols,
+        invert=args.invert,
+        remove_background=args.remove_background,
+        char_aspect_ratio=args.char_aspect_ratio,
+    )
     fragment = rows_to_svg_fragment(
         rows, args.color, args.font_size, args.line_height, args.x, args.y
     )

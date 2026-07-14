@@ -1,14 +1,20 @@
 name: Latest blog post workflow
-on: 
-    schedule:
-        - cron: '0 * * * *'
-jobs: 
-    update-readme-with-blog: 
-        name: Update this repo's README with latest blog posts
-        runs-on: ubuntu-latest
-        steps: 
-            - uses: actions/checkout@v6
-            - uses: gautamkrishnar/blog-post-workflow@master
-              with: 
-                max_post_count: "6"
-                feed_list: "https://blog.yunielacosta.com/en/rss.xml"
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme-with-blog:
+    name: Update this repo's README with latest blog posts
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6
+      - uses: gautamkrishnar/blog-post-workflow@2786e54a01b71aec80a5118c2bd6b5044e842597 # master
+        with:
+          max_post_count: "6"
+          feed_list: "https://blog.yunielacosta.com/en/rss.xml"

@@ -6,19 +6,23 @@ on:
   workflow_dispatch:
 
 env:
-    GH_TOKEN: ${{ secrets.GH_TOKEN }}
+  GH_TOKEN: ${{ secrets.GH_TOKEN }}
+
+permissions:
+  contents: write
 
 jobs:
   update-readme:
     name: Update Readme with Metrics
     runs-on: ubuntu-latest
     steps:
-      -   name: 🔍 GH_TOKEN
-          if: env.GH_TOKEN == ''
-          env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          run: echo "GH_TOKEN=${GITHUB_TOKEN}" >> $GITHUB_ENV    
-      - uses: anmol098/waka-readme-stats@master
+      - name: 🔍 GH_TOKEN
+        if: env.GH_TOKEN == ''
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: echo "GH_TOKEN=${GITHUB_TOKEN}" >> "$GITHUB_ENV"
+
+      - uses: anmol098/waka-readme-stats@6a2ec228c5ab57e173ac03586902a0b06b8f9301 # master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           GH_TOKEN: ${{ env.GH_TOKEN }}

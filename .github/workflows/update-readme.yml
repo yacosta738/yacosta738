@@ -2,8 +2,15 @@ name: Update Profile Readme
 
 on:
   schedule:
-    - cron: '0 0 1 * *'
+    - cron: "0 0 1 * *"
   workflow_dispatch:
+
+concurrency:
+  group: update-profile-readme
+  cancel-in-progress: false
+
+permissions:
+  contents: write
 
 jobs:
   update-readme:
@@ -11,7 +18,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6
 
       - name: Calculate years of experience
         id: calc-experience
@@ -25,7 +32,7 @@ jobs:
           else
             experience=$((current_year - start_year - 1))
           fi
-          echo "::set-output name=experience::$experience"
+          echo "experience=$experience" >> "$GITHUB_OUTPUT"
 
       - name: Update README
         run: |
@@ -34,10 +41,12 @@ jobs:
 
       - name: Commit changes
         run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git commit -m "Update years of experience in README"
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update years of experience"
+            git push
+          fi

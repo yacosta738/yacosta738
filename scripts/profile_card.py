@@ -69,9 +69,24 @@ def fetch_followers(user_name: str) -> int:
     return data["data"]["user"]["followers"]["totalCount"]
 
 
+def fetch_user_id(user_name: str) -> str:
+    query = """
+    query($login: String!) {
+        user(login: $login) { id }
+    }"""
+    data = graphql_request(query, {"login": user_name})
+    return data["data"]["user"]["id"]
+
+
 def fetch_commit_count(user_name: str, years_back: int = 15) -> int:
-    start = (datetime.datetime.utcnow() - datetime.timedelta(days=365 * years_back)).isoformat() + "Z"
-    end = datetime.datetime.utcnow().isoformat() + "Z"
+    """Return contributions in bounded windows accepted by GitHub GraphQL.
+
+    ``contributionsCollection`` rejects ranges longer than one year.  Use
+    non-overlapping 365-day windows so leap years cannot push a request over
+    that limit.
+    """
+    end = datetime.datetime.now(datetime.timezone.utc)
+    start = end - datetime.timedelta(days=365 * years_back)
     query = """
     query($login: String!, $start: DateTime!, $end: DateTime!) {
         user(login: $login) {
@@ -80,8 +95,21 @@ def fetch_commit_count(user_name: str, years_back: int = 15) -> int:
             }
         }
     }"""
-    data = graphql_request(query, {"login": user_name, "start": start, "end": end})
-    return data["data"]["user"]["contributionsCollection"]["totalCommitContributions"]
+    total = 0
+    cursor = start
+    while cursor < end:
+        # Subtract a microsecond to keep adjacent inclusive API ranges from
+        # counting the same boundary instant twice.
+        window_end = min(cursor + datetime.timedelta(days=365), end)
+        query_end = window_end if window_end == end else window_end - datetime.timedelta(microseconds=1)
+        data = graphql_request(query, {
+            "login": user_name,
+            "start": cursor.isoformat().replace("+00:00", "Z"),
+            "end": query_end.isoformat().replace("+00:00", "Z"),
+        })
+        total += data["data"]["user"]["contributionsCollection"]["totalCommitContributions"]
+        cursor = window_end
+    return total
 
 
 def fetch_repos_and_stars(user_name: str, affiliations: list[str]) -> tuple[int, int]:
@@ -160,25 +188,25 @@ def fetch_repo_names(user_name: str, affiliations: list[str]) -> list[tuple[str,
     return names
 
 
-def fetch_commit_diff(owner: str, name: str, user_name: str, since_sha: str | None) -> tuple[str | None, int, int, bool]:
+def fetch_commit_diff(owner: str, name: str, author_id: str,
+                      since_sha: str | None) -> tuple[str | None, int, int, bool]:
     """
-    Walks commit history authored by user_name on the default branch, stopping at
+    Walks commit history authored by author_id on the default branch, stopping at
     since_sha if given. Returns (newest_sha_seen, additions_delta, deletions_delta, cache_was_valid).
     If since_sha was provided but never found in the history, cache_was_valid is False.
     """
     query = """
-    query($owner: String!, $name: String!, $cursor: String) {
+    query($owner: String!, $name: String!, $authorId: ID!, $cursor: String) {
         repository(owner: $owner, name: $name) {
             defaultBranchRef {
                 target {
                     ... on Commit {
-                        history(first: 100, after: $cursor) {
+                        history(first: 100, after: $cursor, author: {id: $authorId}) {
                             edges {
                                 node {
                                     oid
                                     additions
                                     deletions
-                                    author { user { login } }
                                 }
                             }
                             pageInfo { endCursor hasNextPage }
@@ -193,7 +221,12 @@ def fetch_commit_diff(owner: str, name: str, user_name: str, since_sha: str | No
     deletions = 0
     cursor = None
     while True:
-        data = graphql_request(query, {"owner": owner, "name": name, "cursor": cursor})
+        data = graphql_request(query, {
+            "owner": owner,
+            "name": name,
+            "authorId": author_id,
+            "cursor": cursor,
+        })
         ref = data["data"]["repository"]["defaultBranchRef"]
         if ref is None:
             return newest_sha, additions, deletions, since_sha is None
@@ -204,10 +237,8 @@ def fetch_commit_diff(owner: str, name: str, user_name: str, since_sha: str | No
                 newest_sha = node["oid"]
             if node["oid"] == since_sha:
                 return newest_sha, additions, deletions, True
-            author = node["author"]["user"]
-            if author and author["login"] == user_name:
-                additions += node["additions"]
-                deletions += node["deletions"]
+            additions += node["additions"]
+            deletions += node["deletions"]
         if not history["pageInfo"]["hasNextPage"]:
             # Finished pagination without finding since_sha — cache is stale if since_sha was set
             return newest_sha, additions, deletions, since_sha is None
@@ -218,9 +249,10 @@ def compute_total_loc(user_name: str, affiliations: list[str]) -> tuple[int, int
     """Returns (total_additions, total_deletions, total_net_loc) across all repos, using cache."""
     total_additions = 0
     total_deletions = 0
+    author_id = fetch_user_id(user_name)
     for owner, name in fetch_repo_names(user_name, affiliations):
         last_sha, cached_add, cached_del = load_repo_cache(owner, name)
-        newest_sha, new_add, new_del, cache_valid = fetch_commit_diff(owner, name, user_name, last_sha)
+        newest_sha, new_add, new_del, cache_valid = fetch_commit_diff(owner, name, author_id, last_sha)
         if cache_valid:
             # Incremental: add new commits on top of cached totals
             additions = cached_add + new_add
