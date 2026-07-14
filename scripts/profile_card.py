@@ -54,7 +54,10 @@ def graphql_request(query: str, variables: dict) -> dict:
     )
     if response.status_code != 200:
         raise RuntimeError(f"GraphQL request failed ({response.status_code}): {response.text}")
-    return response.json()
+    data = response.json()
+    if "errors" in data:
+        raise RuntimeError(f"GraphQL API returned errors: {data['errors']}")
+    return data
 
 
 def fetch_followers(user_name: str) -> int:
@@ -73,12 +76,12 @@ def fetch_commit_count(user_name: str, years_back: int = 15) -> int:
     query($login: String!, $start: DateTime!, $end: DateTime!) {
         user(login: $login) {
             contributionsCollection(from: $start, to: $end) {
-                contributionCalendar { totalContributions }
+                totalCommitContributions
             }
         }
     }"""
     data = graphql_request(query, {"login": user_name, "start": start, "end": end})
-    return data["data"]["user"]["contributionsCollection"]["contributionCalendar"]["totalContributions"]
+    return data["data"]["user"]["contributionsCollection"]["totalCommitContributions"]
 
 
 def fetch_repos_and_stars(user_name: str, affiliations: list[str]) -> tuple[int, int]:
@@ -157,10 +160,11 @@ def fetch_repo_names(user_name: str, affiliations: list[str]) -> list[tuple[str,
     return names
 
 
-def fetch_commit_diff(owner: str, name: str, user_name: str, since_sha: str | None) -> tuple[str | None, int, int]:
+def fetch_commit_diff(owner: str, name: str, user_name: str, since_sha: str | None) -> tuple[str | None, int, int, bool]:
     """
     Walks commit history authored by user_name on the default branch, stopping at
-    since_sha if given. Returns (newest_sha_seen, additions_delta, deletions_delta).
+    since_sha if given. Returns (newest_sha_seen, additions_delta, deletions_delta, cache_was_valid).
+    If since_sha was provided but never found in the history, cache_was_valid is False.
     """
     query = """
     query($owner: String!, $name: String!, $cursor: String) {
@@ -192,20 +196,21 @@ def fetch_commit_diff(owner: str, name: str, user_name: str, since_sha: str | No
         data = graphql_request(query, {"owner": owner, "name": name, "cursor": cursor})
         ref = data["data"]["repository"]["defaultBranchRef"]
         if ref is None:
-            return newest_sha, additions, deletions
+            return newest_sha, additions, deletions, since_sha is None
         history = ref["target"]["history"]
         for edge in history["edges"]:
             node = edge["node"]
             if newest_sha is None:
                 newest_sha = node["oid"]
             if node["oid"] == since_sha:
-                return newest_sha, additions, deletions
+                return newest_sha, additions, deletions, True
             author = node["author"]["user"]
             if author and author["login"] == user_name:
                 additions += node["additions"]
                 deletions += node["deletions"]
         if not history["pageInfo"]["hasNextPage"]:
-            return newest_sha, additions, deletions
+            # Finished pagination without finding since_sha — cache is stale if since_sha was set
+            return newest_sha, additions, deletions, since_sha is None
         cursor = history["pageInfo"]["endCursor"]
 
 
@@ -215,9 +220,15 @@ def compute_total_loc(user_name: str, affiliations: list[str]) -> tuple[int, int
     total_deletions = 0
     for owner, name in fetch_repo_names(user_name, affiliations):
         last_sha, cached_add, cached_del = load_repo_cache(owner, name)
-        newest_sha, new_add, new_del = fetch_commit_diff(owner, name, user_name, last_sha)
-        additions = cached_add + new_add
-        deletions = cached_del + new_del
+        newest_sha, new_add, new_del, cache_valid = fetch_commit_diff(owner, name, user_name, last_sha)
+        if cache_valid:
+            # Incremental: add new commits on top of cached totals
+            additions = cached_add + new_add
+            deletions = cached_del + new_del
+        else:
+            # Cache miss (since_sha not found in current history) — discard cache, use fresh totals
+            additions = new_add
+            deletions = new_del
         if newest_sha:
             save_repo_cache(owner, name, newest_sha, additions, deletions)
         total_additions += additions
@@ -249,7 +260,8 @@ def main() -> None:
     commits = fetch_commit_count(user_name)
     owned_repos, stars = fetch_repos_and_stars(user_name, ["OWNER"])
     contributed_repos, _ = fetch_repos_and_stars(user_name, ["OWNER", "COLLABORATOR", "ORGANIZATION_MEMBER"])
-    additions, deletions, net_loc = compute_total_loc(user_name, ["OWNER", "COLLABORATOR", "ORGANIZATION_MEMBER"])
+    # LOC scan excludes ORGANIZATION_MEMBER to avoid traversing unrelated org repos and burning rate limit
+    additions, deletions, net_loc = compute_total_loc(user_name, ["OWNER", "COLLABORATOR"])
 
     values = {
         "uptime_data": uptime,
