@@ -1,35 +1,77 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "baseBranchPatterns": [
-    "main"
-  ],
+  "baseBranchPatterns": ["main"],
   "timezone": "Europe/Madrid",
-  "schedule": "before 5am every weekday",
+  "schedule": ["before 5am every weekday"],
   "lockFileMaintenance": {
     "enabled": true,
-    "schedule": "after 10pm on sunday"
+    "schedule": ["after 10pm on sunday"]
   },
-  "packageRules": [
-    {
-      "matchPackageNames": [
-        "npm",
-        "pnpm",
-        "astro",
-        "node"
-      ],
-      "matchUpdateTypes": [
-        "patch",
-        "minor"
-      ],
-      "automerge": true,
-      "schedule": [
-        "after 5pm on Friday"
-      ]
-    }
-  ],
+  "prConcurrentLimit": 3,
+  "prHourlyLimit": 2,
+  "automerge": true,
+  "automergeType": "pr",
+  "automergeStrategy": "squash",
+  "platformAutomerge": true,
+  "ignoreTests": false,
   "extends": [
     "config:recommended",
-    ":assignee(arg0)",
-    ":reviewer(arg0)"
+    ":assignee(yacosta738)",
+    ":reviewer(yacosta738)"
+  ],
+  "packageRules": [
+    {
+      "description": "Automerge patch and minor updates (non-breaking) for all dependencies",
+      "matchUpdateTypes": ["patch", "minor"],
+      "automerge": true,
+      "automergeType": "pr",
+      "automergeStrategy": "squash",
+      "minimumReleaseAge": "3 days",
+      "internalChecksFilter": "strict",
+      "ignoreTests": false
+    },
+    {
+      "description": "Hold major updates for manual review",
+      "matchUpdateTypes": ["major"],
+      "automerge": false,
+      "schedule": ["after 5pm on friday"]
+    },
+    {
+      "description": "Fast-track security updates (zero wait time)",
+      "matchDatasources": ["npm"],
+      "matchUpdateTypes": ["patch"],
+      "matchDepTypes": ["dependencies", "devDependencies"],
+      "matchCategories": ["security"],
+      "minimumReleaseAge": "0 days",
+      "automerge": true
+    },
+    {
+      "description": "Automerge low-risk tooling",
+      "matchPackageNames": ["npm", "pnpm", "node"],
+      "matchUpdateTypes": ["patch"],
+      "automerge": true,
+      "minimumReleaseAge": "0 days"
+    },
+    {
+      "description": "Astro minor and patch updates with short delay",
+      "matchPackageNames": ["astro"],
+      "matchUpdateTypes": ["patch", "minor"],
+      "automerge": true,
+      "minimumReleaseAge": "1 day"
+    },
+    {
+      "description": "Group all TypeScript packages together",
+      "matchPackagePatterns": ["^@types/", "^typescript$"],
+      "matchUpdateTypes": ["patch", "minor"],
+      "groupName": "typescript",
+      "automerge": true
+    },
+    {
+      "description": "Group lint/format tools",
+      "matchPackagePatterns": ["eslint", "prettier", "stylelint"],
+      "matchUpdateTypes": ["patch", "minor"],
+      "groupName": "linters",
+      "automerge": true
+    }
   ]
 }
