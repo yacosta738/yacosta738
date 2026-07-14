@@ -4,7 +4,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile-card-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="assets/profile-card-light.svg" />
-  <img alt="Yuniel Acosta's profile card" src="assets/profile-card-dark.svg" />
+  <img alt="Yuniel Acosta's profile card" src="assets/profile-card-dark.svg" width="100%" />
 </picture>
 
 With over 8 years of experience in software development, I specialize in front-end and back-end technologies. I have a strong passion for technology and science, and have gained a deep understanding of software design principles, design patterns, object-oriented programming, functional programming, domain-driven design, and microservices. I am a versatile individual who is always eager to learn and ready to take on any challenge, whether it be within my country or abroad. My expertise in the field of software engineering has allowed me to develop a highly sought-after skill set. I am confident in my ability to adapt to new technologies and constantly seek ways to expand my knowledge and expertise.

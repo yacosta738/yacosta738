@@ -7,8 +7,8 @@ Usage:
         --out assets/ascii_art_fragment.svg \
         --cols 38 --color "#64FFDA" --font-size 9 --line-height 10 --x 10 --y 20
 
-This is NOT part of the daily metrics pipeline (profile_card.py). It runs once to
-produce a fixed <tspan> block that gets pasted into the SVG templates by hand.
+This is NOT part of the daily metrics pipeline (profile_card.py). It produces a
+fixed <tspan> block that scripts/embed_ascii_art.py inserts into both templates.
 """
 import argparse
 from xml.sax.saxutils import escape
