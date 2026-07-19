@@ -27,11 +27,11 @@ With over 8 years of experience in software development, I specialize in front-e
 
 ```text
 💬 Programming Languages: 
-Kotlin                   14 hrs 46 mins      ██████░░░░░░░░░░░░░░░░░░░   25.47 % 
-TypeScript               13 hrs 28 mins      ██████░░░░░░░░░░░░░░░░░░░   23.23 % 
-Markdown                 11 hrs 55 mins      █████░░░░░░░░░░░░░░░░░░░░   20.55 % 
-YAML                     6 hrs 47 mins       ███░░░░░░░░░░░░░░░░░░░░░░   11.71 % 
-Vue                      2 hrs 43 mins       █░░░░░░░░░░░░░░░░░░░░░░░░   04.70 % 
+Kotlin                   15 hrs 46 mins      ███████░░░░░░░░░░░░░░░░░░   26.19 % 
+Markdown                 13 hrs 1 min        █████░░░░░░░░░░░░░░░░░░░░   21.62 % 
+TypeScript               12 hrs 27 mins      █████░░░░░░░░░░░░░░░░░░░░   20.70 % 
+YAML                     6 hrs 46 mins       ███░░░░░░░░░░░░░░░░░░░░░░   11.25 % 
+Vue                      2 hrs 24 mins       █░░░░░░░░░░░░░░░░░░░░░░░░   04.00 % 
 ```
 
 
