@@ -16,10 +16,10 @@ With over 8 years of experience in software development, I specialize in front-e
 **I'm an Early 🐤** 
 
 ```text
-🌞 Morning                46089 commits       ██████░░░░░░░░░░░░░░░░░░░   24.29 % 
-🌆 Daytime                63303 commits       ████████░░░░░░░░░░░░░░░░░   33.37 % 
-🌃 Evening                66967 commits       █████████░░░░░░░░░░░░░░░░   35.30 % 
-🌙 Night                  13348 commits       ██░░░░░░░░░░░░░░░░░░░░░░░   07.04 % 
+🌞 Morning                47599 commits       ██████░░░░░░░░░░░░░░░░░░░   24.47 % 
+🌆 Daytime                64974 commits       ████████░░░░░░░░░░░░░░░░░   33.40 % 
+🌃 Evening                68554 commits       █████████░░░░░░░░░░░░░░░░   35.24 % 
+🌙 Night                  13417 commits       ██░░░░░░░░░░░░░░░░░░░░░░░   06.90 % 
 ```
 
 
@@ -27,11 +27,11 @@ With over 8 years of experience in software development, I specialize in front-e
 
 ```text
 💬 Programming Languages: 
-Kotlin                   24 hrs 57 mins      ██████████░░░░░░░░░░░░░░░   40.06 % 
-Markdown                 11 hrs 36 mins      █████░░░░░░░░░░░░░░░░░░░░   18.63 % 
-YAML                     9 hrs 21 mins       ████░░░░░░░░░░░░░░░░░░░░░   15.03 % 
-TypeScript               4 hrs 55 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   07.92 % 
-Other                    3 hrs 3 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   04.92 % 
+Kotlin                   22 hrs 57 mins      ██████████░░░░░░░░░░░░░░░   38.86 % 
+Markdown                 9 hrs 12 mins       ████░░░░░░░░░░░░░░░░░░░░░   15.59 % 
+YAML                     9 hrs 12 mins       ████░░░░░░░░░░░░░░░░░░░░░   15.58 % 
+TypeScript               6 hrs 18 mins       ███░░░░░░░░░░░░░░░░░░░░░░   10.66 % 
+Other                    2 hrs 47 mins       █░░░░░░░░░░░░░░░░░░░░░░░░   04.72 % 
 ```
 
 
