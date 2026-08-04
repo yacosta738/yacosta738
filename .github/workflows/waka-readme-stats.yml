@@ -22,7 +22,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: echo "GH_TOKEN=${GITHUB_TOKEN}" >> "$GITHUB_ENV"
 
-      - uses: anmol098/waka-readme-stats@18146e87e945092519c11353547bf066daa99e46 # master
+      - uses: anmol098/waka-readme-stats@0fbe7e6adba2bfe485e0f27f6dd68b810f7bae1a # master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           GH_TOKEN: ${{ env.GH_TOKEN }}
