@@ -50,5 +50,11 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "chore: update profile card stats"
+            # Pull with rebase to handle concurrent changes
+            git pull --rebase origin main || {
+              echo "Rebase failed, aborting and cleaning up"
+              git rebase --abort
+              exit 1
+            }
             git push
           fi
