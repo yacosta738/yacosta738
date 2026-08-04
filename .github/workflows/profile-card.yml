@@ -37,7 +37,7 @@ jobs:
 
       - name: Update profile card SVGs
         env:
-          METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          METRICS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USER_NAME: yacosta738
         run: python scripts/profile_card.py
 

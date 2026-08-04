@@ -56,6 +56,14 @@ def graphql_request(query: str, variables: dict) -> dict:
         raise RuntimeError(f"GraphQL request failed ({response.status_code}): {response.text}")
     data = response.json()
     if "errors" in data:
+        # Check if this is a FORBIDDEN error for inaccessible resources
+        for error in data.get("errors", []):
+            if error.get("type") == "FORBIDDEN" and "Resource not accessible" in error.get("message", ""):
+                # Return partial data if available, treating FORBIDDEN as a recoverable error
+                if "data" in data:
+                    print(f"Warning: Some resources are inaccessible (FORBIDDEN). Continuing with partial data.")
+                    return data
+                raise PermissionError(f"GraphQL FORBIDDEN: {error.get('message')}")
         raise RuntimeError(f"GraphQL API returned errors: {data['errors']}")
     return data
 
@@ -128,12 +136,21 @@ def fetch_repos_and_stars(user_name: str, affiliations: list[str]) -> tuple[int,
     total_stars = 0
     cursor = None
     while True:
-        data = graphql_request(query, {
-            "login": user_name, "affiliations": affiliations, "cursor": cursor,
-        })
+        try:
+            data = graphql_request(query, {
+                "login": user_name, "affiliations": affiliations, "cursor": cursor,
+            })
+        except PermissionError as e:
+            print(f"Warning: Skipping page due to permission issue: {e}")
+            break
+        
         repos = data["data"]["user"]["repositories"]
         total_repos = repos["totalCount"]
-        total_stars += sum(edge["node"]["stargazers"]["totalCount"] for edge in repos["edges"])
+        # Skip edges with None nodes (inaccessible repos)
+        for edge in repos["edges"]:
+            if edge and edge.get("node") and edge["node"].get("stargazers"):
+                total_stars += edge["node"]["stargazers"]["totalCount"]
+        
         if not repos["pageInfo"]["hasNextPage"]:
             break
         cursor = repos["pageInfo"]["endCursor"]
