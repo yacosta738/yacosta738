@@ -47,25 +47,53 @@ def get_user_name() -> str:
     return os.environ["USER_NAME"]
 
 
-def graphql_request(query: str, variables: dict) -> dict:
-    response = requests.post(
-        GITHUB_GRAPHQL_URL, json={"query": query, "variables": variables},
-        headers=get_headers(), timeout=30,
-    )
-    if response.status_code != 200:
-        raise RuntimeError(f"GraphQL request failed ({response.status_code}): {response.text}")
-    data = response.json()
-    if "errors" in data:
-        # Check if this is a FORBIDDEN error for inaccessible resources
-        for error in data.get("errors", []):
-            if error.get("type") == "FORBIDDEN" and "Resource not accessible" in error.get("message", ""):
-                # Return partial data if available, treating FORBIDDEN as a recoverable error
-                if "data" in data:
-                    print(f"Warning: Some resources are inaccessible (FORBIDDEN). Continuing with partial data.")
-                    return data
-                raise PermissionError(f"GraphQL FORBIDDEN: {error.get('message')}")
-        raise RuntimeError(f"GraphQL API returned errors: {data['errors']}")
-    return data
+def graphql_request(query: str, variables: dict, max_retries: int = 3) -> dict:
+    """Execute a GraphQL request with retry logic for transient failures."""
+    import time
+    
+    for attempt in range(max_retries):
+        try:
+            response = requests.post(
+                GITHUB_GRAPHQL_URL, json={"query": query, "variables": variables},
+                headers=get_headers(), timeout=30,
+            )
+            
+            # Handle 5xx errors (server issues) with retry
+            if response.status_code >= 500:
+                if attempt < max_retries - 1:
+                    wait_time = 2 ** attempt  # Exponential backoff: 1s, 2s, 4s
+                    print(f"Warning: GitHub API returned {response.status_code}. Retrying in {wait_time}s... (attempt {attempt + 1}/{max_retries})")
+                    time.sleep(wait_time)
+                    continue
+                else:
+                    print(f"Error: GitHub API failed after {max_retries} attempts. Skipping this request.")
+                    raise RuntimeError(f"GraphQL request failed after {max_retries} retries ({response.status_code}): {response.text}")
+            
+            if response.status_code != 200:
+                raise RuntimeError(f"GraphQL request failed ({response.status_code}): {response.text}")
+            
+            data = response.json()
+            if "errors" in data:
+                # Check if this is a FORBIDDEN error for inaccessible resources
+                for error in data.get("errors", []):
+                    if error.get("type") == "FORBIDDEN" and "Resource not accessible" in error.get("message", ""):
+                        # Return partial data if available, treating FORBIDDEN as a recoverable error
+                        if "data" in data:
+                            print(f"Warning: Some resources are inaccessible (FORBIDDEN). Continuing with partial data.")
+                            return data
+                        raise PermissionError(f"GraphQL FORBIDDEN: {error.get('message')}")
+                raise RuntimeError(f"GraphQL API returned errors: {data['errors']}")
+            return data
+            
+        except requests.exceptions.RequestException as e:
+            if attempt < max_retries - 1:
+                wait_time = 2 ** attempt
+                print(f"Warning: Network error ({e}). Retrying in {wait_time}s... (attempt {attempt + 1}/{max_retries})")
+                time.sleep(wait_time)
+                continue
+            else:
+                print(f"Error: Network error after {max_retries} attempts. Skipping this request.")
+                raise RuntimeError(f"GraphQL request failed after {max_retries} retries due to network error: {e}")
 
 
 def fetch_followers(user_name: str) -> int:
