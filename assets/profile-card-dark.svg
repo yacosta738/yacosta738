@@ -61,7 +61,7 @@
     </g>
 
     <text x="360" y="65">OS:<tspan x="870" text-anchor="end" fill="#8b949e">macOS, Arch Linux, Windows</tspan></text>
-    <text x="360" y="83">Uptime:<tspan x="870" text-anchor="end" id="uptime_data" fill="#8b949e">13 years, 11 months, 17 days</tspan></text>
+    <text x="360" y="83">Uptime:<tspan x="870" text-anchor="end" id="uptime_data" fill="#8b949e">13 years, 11 months, 18 days</tspan></text>
     <text x="360" y="101">Host:<tspan x="870" text-anchor="end" fill="#8b949e">GFT Technology</tspan></text>
     <text x="360" y="119">Kernel:<tspan x="870" text-anchor="end" fill="#8b949e">Senior Fullstack Architect</tspan></text>
     <text x="360" y="137">IDE:<tspan x="870" text-anchor="end" fill="#8b949e">LazyVim, IntelliJ IDEA 2025.1</tspan></text>
