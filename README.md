@@ -18,10 +18,10 @@ With over 8 years of experience in software development, I specialize in front-e
 **I'm an Early 🐤** 
 
 ```text
-🌞 Morning                48986 commits       ██████░░░░░░░░░░░░░░░░░░░   24.71 % 
-🌆 Daytime                66570 commits       ████████░░░░░░░░░░░░░░░░░   33.57 % 
-🌃 Evening                69352 commits       █████████░░░░░░░░░░░░░░░░   34.98 % 
-🌙 Night                  13366 commits       ██░░░░░░░░░░░░░░░░░░░░░░░   06.74 % 
+🌞 Morning                49000 commits       ██████░░░░░░░░░░░░░░░░░░░   24.72 % 
+🌆 Daytime                66552 commits       ████████░░░░░░░░░░░░░░░░░   33.57 % 
+🌃 Evening                69327 commits       █████████░░░░░░░░░░░░░░░░   34.97 % 
+🌙 Night                  13362 commits       ██░░░░░░░░░░░░░░░░░░░░░░░   06.74 % 
 ```
 
 
@@ -29,37 +29,37 @@ With over 8 years of experience in software development, I specialize in front-e
 
 ```text
 💬 Programming Languages: 
-Markdown                 25 hrs 45 mins      ████████░░░░░░░░░░░░░░░░░   32.50 % 
-Other                    13 hrs 45 mins      ████░░░░░░░░░░░░░░░░░░░░░   17.35 % 
-YAML                     11 hrs 24 mins      ████░░░░░░░░░░░░░░░░░░░░░   14.39 % 
-Kotlin                   11 hrs 16 mins      ████░░░░░░░░░░░░░░░░░░░░░   14.22 % 
-TypeScript               2 hrs 54 mins       █░░░░░░░░░░░░░░░░░░░░░░░░   03.68 % 
+Markdown                 24 hrs 49 mins      ████████░░░░░░░░░░░░░░░░░   31.59 % 
+Other                    13 hrs 41 mins      ████░░░░░░░░░░░░░░░░░░░░░   17.43 % 
+Kotlin                   11 hrs 13 mins      ████░░░░░░░░░░░░░░░░░░░░░   14.28 % 
+YAML                     10 hrs 34 mins      ███░░░░░░░░░░░░░░░░░░░░░░   13.45 % 
+TypeScript               3 hrs 37 mins       █░░░░░░░░░░░░░░░░░░░░░░░░   04.61 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 79 hrs 12 mins (99.91%)
+⏱ AI Coding Time: 76 hrs 47 mins (99.9%)
 
-✍️ 50,851 lines written by AI, 1,100 lines written by hand (97.88% AI-written)
+✍️ 52,473 lines written by AI, 1,100 lines written by hand (97.95% AI-written)
 
-🔤 806,265,635 Input Tokens, 12,142,054 Output Tokens
+🔤 742,774,679 Input Tokens, 9,659,973 Output Tokens
 
-💵 $8646.04 Estimated AI Cost This Week
+💵 $9251.32 Estimated AI Cost This Week
 
-🧠 549 AI Sessions, 2331 AI Prompts
+🧠 434 AI Sessions, 2131 AI Prompts
 
-GPT                      20,051 lines        █████████░░░░░░░░░░░░░░░░   37.18 % 
-M                        12,435 lines        ██████░░░░░░░░░░░░░░░░░░░   23.06 % 
-Spark                    11,165 lines        █████░░░░░░░░░░░░░░░░░░░░   20.70 % 
-Opencode-Cli             7,336 lines         ███░░░░░░░░░░░░░░░░░░░░░░   13.60 % 
-OpenCode                 2,551 lines         █░░░░░░░░░░░░░░░░░░░░░░░░   04.73 % 
+Spark                    15,067 lines        ████████░░░░░░░░░░░░░░░░░   31.13 % 
+GPT                      12,368 lines        ██████░░░░░░░░░░░░░░░░░░░   25.55 % 
+M                        10,785 lines        ██████░░░░░░░░░░░░░░░░░░░   22.28 % 
+Opencode-Cli             7,811 lines         ████░░░░░░░░░░░░░░░░░░░░░   16.14 % 
+OpenCode                 1,983 lines         █░░░░░░░░░░░░░░░░░░░░░░░░   04.10 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 97.88% of written lines came from AI
-📚 Verbose Prompter — average 8,105 characters per prompt
-🔁 Iterative Prompter — average 4 prompts per session
-🚀 High AI Trust — 5.47% of changed lines were hand-edited
+🤖 AI-Driven — 97.95% of written lines came from AI
+📚 Verbose Prompter — average 8,924 characters per prompt
+🔁 Iterative Prompter — average 5 prompts per session
+🚀 High AI Trust — 5.34% of changed lines were hand-edited
 ```
 
 
