@@ -61,7 +61,7 @@
     </g>
 
     <text x="360" y="65">OS:<tspan x="870" text-anchor="end" fill="#8b949e">macOS, Arch Linux, Windows</tspan></text>
-    <text x="360" y="83">Uptime:<tspan x="870" text-anchor="end" id="uptime_data" fill="#8b949e">14 years, 0 months, 1 day</tspan></text>
+    <text x="360" y="83">Uptime:<tspan x="870" text-anchor="end" id="uptime_data" fill="#8b949e">14 years, 0 months, 2 days</tspan></text>
     <text x="360" y="101">Host:<tspan x="870" text-anchor="end" fill="#8b949e">GFT Technology</tspan></text>
     <text x="360" y="119">Kernel:<tspan x="870" text-anchor="end" fill="#8b949e">Senior Fullstack Architect</tspan></text>
     <text x="360" y="137">IDE:<tspan x="870" text-anchor="end" fill="#8b949e">LazyVim, IntelliJ IDEA 2025.1</tspan></text>
@@ -83,8 +83,8 @@
     <text x="360" y="395">Blog:<tspan x="870" text-anchor="end" fill="#8b949e">blog.yunielacosta.com</tspan></text>
 
     <text x="360" y="421" fill="#64FFDA" font-weight="bold">GitHub Stats</text>
-    <text x="360" y="439">Repos: <tspan id="repo_data" fill="#8b949e">225</tspan> {Contributed: <tspan id="contrib_data" fill="#8b949e">229</tspan>} | Stars: <tspan id="star_data" fill="#8b949e">92</tspan></text>
-    <text x="360" y="457">Commits: <tspan id="commit_data" fill="#8b949e">3,474</tspan> | Followers: <tspan id="follower_data" fill="#8b949e">37</tspan></text>
+    <text x="360" y="439">Repos: <tspan id="repo_data" fill="#8b949e">225</tspan> {Contributed: <tspan id="contrib_data" fill="#8b949e">229</tspan>} | Stars: <tspan id="star_data" fill="#8b949e">101</tspan></text>
+    <text x="360" y="457">Commits: <tspan id="commit_data" fill="#8b949e">3,464</tspan> | Followers: <tspan id="follower_data" fill="#8b949e">37</tspan></text>
     <text x="360" y="475">Lines of Code: <tspan id="loc_total" fill="#8b949e">3,407,041</tspan> ( <tspan id="loc_add" fill="#3fb950">5,430,616</tspan>++, <tspan id="loc_del" fill="#f85149">2,023,575</tspan>-- )</text>
   </g>
 </svg>
