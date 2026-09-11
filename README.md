@@ -13,15 +13,15 @@ With over 9 years of experience in software development, I specialize in front-e
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/yacosta738) [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/yacosta738) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/yacosta738) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/yacosta738) [![Pinterest](https://img.shields.io/badge/Pinterest-%23E60023.svg?logo=Pinterest&logoColor=white)](https://pinterest.com/yacosta738) [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/yacosta738) [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/9894376) [![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white)](https://tiktok.com/@yacosta738) [![Twitch](https://img.shields.io/badge/Twitch-%239146FF.svg?logo=Twitch&logoColor=white)](https://twitch.tv/yacosta738) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/yacosta738) [![Codepen](https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white)](https://codepen.io/yacosta738) 
 
 <!--START_SECTION:waka-->
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-1%2C746%20hrs%2052%20mins-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-1%2C769%20hrs%2013%20mins-blue?style=flat)
 
 **I'm an Early 🐤** 
 
 ```text
-🌞 Morning                53907 commits       ██████░░░░░░░░░░░░░░░░░░░   25.36 % 
-🌆 Daytime                71130 commits       ████████░░░░░░░░░░░░░░░░░   33.46 % 
-🌃 Evening                73849 commits       █████████░░░░░░░░░░░░░░░░   34.74 % 
-🌙 Night                  13681 commits       ██░░░░░░░░░░░░░░░░░░░░░░░   06.44 % 
+🌞 Morning                54371 commits       ██████░░░░░░░░░░░░░░░░░░░   25.33 % 
+🌆 Daytime                71831 commits       ████████░░░░░░░░░░░░░░░░░   33.46 % 
+🌃 Evening                74589 commits       █████████░░░░░░░░░░░░░░░░   34.75 % 
+🌙 Night                  13877 commits       ██░░░░░░░░░░░░░░░░░░░░░░░   06.46 % 
 ```
 
 
@@ -29,37 +29,37 @@ With over 9 years of experience in software development, I specialize in front-e
 
 ```text
 💬 Programming Languages: 
-Kotlin                   21 hrs 46 mins      █████████░░░░░░░░░░░░░░░░   34.53 % 
-Markdown                 17 hrs              ███████░░░░░░░░░░░░░░░░░░   26.97 % 
-YAML                     7 hrs 11 mins       ███░░░░░░░░░░░░░░░░░░░░░░   11.42 % 
-TypeScript               4 hrs 47 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   07.60 % 
-Other                    2 hrs 16 mins       █░░░░░░░░░░░░░░░░░░░░░░░░   03.61 % 
+Kotlin                   23 hrs 8 mins       █████████░░░░░░░░░░░░░░░░   35.39 % 
+Markdown                 18 hrs 40 mins      ███████░░░░░░░░░░░░░░░░░░   28.58 % 
+YAML                     6 hrs 28 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   09.92 % 
+TypeScript               5 hrs 30 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   08.42 % 
+Other                    2 hrs 11 mins       █░░░░░░░░░░░░░░░░░░░░░░░░   03.36 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 62 hrs 55 mins (99.8%)
+⏱ AI Coding Time: 65 hrs 15 mins (99.82%)
 
-✍️ 58,896 lines written by AI, 138 lines written by hand (99.77% AI-written)
+✍️ 53,959 lines written by AI, 17 lines written by hand (99.97% AI-written)
 
-🔤 91,468,022 Input Tokens, 6,741,666 Output Tokens
+🔤 84,172,122 Input Tokens, 6,732,303 Output Tokens
 
-💵 $8046.43 Estimated AI Cost This Week
+💵 $8129.79 Estimated AI Cost This Week
 
-🧠 337 AI Sessions, 1140 AI Prompts
+🧠 327 AI Sessions, 1123 AI Prompts
 
-Spark                    33,085 lines        ████████████░░░░░░░░░░░░░   49.45 % 
-Opencode-Cli             12,160 lines        █████░░░░░░░░░░░░░░░░░░░░   18.18 % 
-M                        10,484 lines        ████░░░░░░░░░░░░░░░░░░░░░   15.67 % 
-GPT                      5,785 lines         ██░░░░░░░░░░░░░░░░░░░░░░░   08.65 % 
-OpenCode                 5,213 lines         ██░░░░░░░░░░░░░░░░░░░░░░░   07.79 % 
+Spark                    29,673 lines        ████████████░░░░░░░░░░░░░   47.57 % 
+Opencode-Cli             12,610 lines        █████░░░░░░░░░░░░░░░░░░░░   20.22 % 
+M                        7,565 lines         ███░░░░░░░░░░░░░░░░░░░░░░   12.13 % 
+GPT                      7,545 lines         ███░░░░░░░░░░░░░░░░░░░░░░   12.10 % 
+OpenCode                 4,811 lines         ██░░░░░░░░░░░░░░░░░░░░░░░   07.71 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 99.77% of written lines came from AI
-📚 Verbose Prompter — average 2,799 characters per prompt
+🤖 AI-Driven — 99.97% of written lines came from AI
+📚 Verbose Prompter — average 4,824 characters per prompt
 🔁 Iterative Prompter — average 3 prompts per session
-🚀 High AI Trust — 3.85% of changed lines were hand-edited
+🚀 High AI Trust — 3.96% of changed lines were hand-edited
 ```
 
 
