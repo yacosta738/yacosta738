@@ -83,8 +83,8 @@
     <text x="360" y="395">Blog:<tspan x="870" text-anchor="end" fill="#8b949e">blog.yunielacosta.com</tspan></text>
 
     <text x="360" y="421" fill="#64FFDA" font-weight="bold">GitHub Stats</text>
-    <text x="360" y="439">Repos: <tspan id="repo_data" fill="#8b949e">227</tspan> {Contributed: <tspan id="contrib_data" fill="#8b949e">231</tspan>} | Stars: <tspan id="star_data" fill="#8b949e">105</tspan></text>
-    <text x="360" y="457">Commits: <tspan id="commit_data" fill="#8b949e">3,135</tspan> | Followers: <tspan id="follower_data" fill="#8b949e">38</tspan></text>
-    <text x="360" y="475">Lines of Code: <tspan id="loc_total" fill="#8b949e">3,359,714</tspan> ( <tspan id="loc_add" fill="#3fb950">5,964,282</tspan>++, <tspan id="loc_del" fill="#f85149">2,604,568</tspan>-- )</text>
+    <text x="360" y="439">Repos: <tspan id="repo_data" fill="#8b949e">229</tspan> {Contributed: <tspan id="contrib_data" fill="#8b949e">233</tspan>} | Stars: <tspan id="star_data" fill="#8b949e">105</tspan></text>
+    <text x="360" y="457">Commits: <tspan id="commit_data" fill="#8b949e">3,138</tspan> | Followers: <tspan id="follower_data" fill="#8b949e">38</tspan></text>
+    <text x="360" y="475">Lines of Code: <tspan id="loc_total" fill="#8b949e">3,360,356</tspan> ( <tspan id="loc_add" fill="#3fb950">5,976,212</tspan>++, <tspan id="loc_del" fill="#f85149">2,615,856</tspan>-- )</text>
   </g>
 </svg>
