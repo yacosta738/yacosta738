@@ -84,7 +84,7 @@
 
     <text x="360" y="421" fill="#64FFDA" font-weight="bold">GitHub Stats</text>
     <text x="360" y="439">Repos: <tspan id="repo_data" fill="#8b949e">233</tspan> {Contributed: <tspan id="contrib_data" fill="#8b949e">237</tspan>} | Stars: <tspan id="star_data" fill="#8b949e">109</tspan></text>
-    <text x="360" y="457">Commits: <tspan id="commit_data" fill="#8b949e">3,390</tspan> | Followers: <tspan id="follower_data" fill="#8b949e">39</tspan></text>
-    <text x="360" y="475">Lines of Code: <tspan id="loc_total" fill="#8b949e">3,558,371</tspan> ( <tspan id="loc_add" fill="#3fb950">6,406,926</tspan>++, <tspan id="loc_del" fill="#f85149">2,848,555</tspan>-- )</text>
+    <text x="360" y="457">Commits: <tspan id="commit_data" fill="#8b949e">3,394</tspan> | Followers: <tspan id="follower_data" fill="#8b949e">39</tspan></text>
+    <text x="360" y="475">Lines of Code: <tspan id="loc_total" fill="#8b949e">3,561,326</tspan> ( <tspan id="loc_add" fill="#3fb950">6,410,427</tspan>++, <tspan id="loc_del" fill="#f85149">2,849,101</tspan>-- )</text>
   </g>
 </svg>
